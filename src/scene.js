@@ -61,36 +61,6 @@ function init() {
 
 
 
-//WIP :: load tree instances :: TEST
-	gltfLoader.load('./tree.glb', function (gltf) {
-
-		const matrix = new THREE.Matrix4();
-		gltf.scene.traverse(function(child) {
-			if (child.isMesh) {
-
-				let width = 300;
-				let test = new THREE.InstancedMesh(child.geometry, child.material, width * width);
-				test.instanceMatrix.setUsage(THREE.StaticDrawUsage);
-
-				for (let x = 0; x < width; ++x) {
-					for (let y = 0; y < width; ++y) {
-
-						let posX = x * 50 + Math.random() * 50 - 25;
-						let posY = y * 50 + Math.random() * 50 - 25;
-
-						matrix.makeRotationFromEuler(new THREE.Euler(Math.PI / 2, Math.random() * 100, 0));
-						matrix.scale(new THREE.Vector3(0.01,0.01,0.01));
-						matrix.setPosition(posX, posY, landscape.getHeightAtLocation(posX, posY));
-						test.setMatrixAt(x + y * width, matrix);
-					}
-				}
-
-				scene.add(test);
-
-			}
-		});
-
-	});
 }
 
 function loadPlane() {
