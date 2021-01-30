@@ -1,0 +1,3 @@
+[submodule "ThreeFlightSimulator"]
+	path = ThreeFlightSimulator
+	url = https://github.com/PierreEVEN/ThreeFlightSimulator
