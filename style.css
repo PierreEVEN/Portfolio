@@ -31,6 +31,12 @@ div.container {
 	height: 100%;
 }
 
+.disclaimer {
+	color: #f1363c;
+	font-weight: bold;
+	font-size: 150%;
+}
+
 button {
 	border-radius: 5px;
 	border-style: none;
