@@ -1,6 +1,0 @@
-[submodule "ThreeFlightSimulator"]
-	path = ThreeFlightSimulator
-	url = https://github.com/PierreEVEN/ThreeFlightSimulator
-[submodule "dev/ThreeFlightSimulator"]
-	path = dev/ThreeFlightSimulator
-	url = https://github.com/PierreEVEN/ThreeFlightSimulator
