@@ -1,11 +1,8 @@
-require("../assets/stylesheets/styles.scss");
+require("../client/styles.scss");
 
-import ComponentLoader, {Component} from 'component-loader-js';
-
-class Navbar extends Component {
+class Navbar {
 
     constructor() {
-        super(...arguments);
         this.el.innerHTML = 'toto'
         this.el.classList.add('navbar-container')
         this.pageContainer = document.createElement('div')
@@ -18,8 +15,6 @@ class Navbar extends Component {
     }
 
 }
-
-const componentLoader = new ComponentLoader({Navbar});
 
 document.addEventListener("DOMContentLoaded", function (event) {
     componentLoader.scan();

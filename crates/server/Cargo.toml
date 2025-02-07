@@ -1,0 +1,16 @@
+[package]
+name = "portfolio-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+utils = { path = "../utils" }
+client_web = { path = "../client_web" }
+
+axum = "0.8.1"
+axum-extra = { version = "0.10.0", features = ["cookie"] }
+axum-server = {  version = "0.7.1", features = ["tls-rustls"] }
+axum-server-dual-protocol = "0.7.0"
+tracing = "0.1.40"
+http-body-util = "0.1.2"
+tracing-subscriber = "0.3.18"
