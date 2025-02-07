@@ -1,0 +1,17 @@
+
+.project-div {
+  align-items: center;
+
+  p {
+    width: 80%;
+    text-align:center;
+  }
+
+  flex-direction: column;
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}

@@ -5,7 +5,7 @@ use std::{env, fs};
 use std::process::{Stdio};
 use std::sync::Arc;
 use anyhow::Error;
-use axum::extract::{State};
+use axum::extract::{Path, State};
 use axum::response::{Html, IntoResponse};
 use axum::{Router};
 use axum::routing::{get};
@@ -76,6 +76,7 @@ impl WebClient {
     pub fn router(ctx: &Arc<AppCtx>) -> Result<Router, Error> {
         Ok(Router::new()
             .route("/", get(get_index).with_state(ctx.clone()))
+            .route("/{*path}", get(get_index_path).with_state(ctx.clone()))
             .route("/favicon.ico", get(Self::get_favicon).with_state(ctx.clone()))
             .nest("/public/", StaticFileServer::router(ctx.config.web_client_config.client_path.join("public")))
         )
@@ -87,11 +88,24 @@ impl WebClient {
 }
 
 async fn get_index(State(ctx): State<Arc<AppCtx>>) -> Result<impl IntoResponse, ServerError> {
+
     let index_path_buf = ctx.config.web_client_config.client_path.join("public").join("index.html");
     let index_path = index_path_buf.to_str().unwrap();
     let index_data = match fs::read_to_string(index_path) {
         Ok(file) => { file }
         Err(err) => { Err(Error::msg(format!("Cannot find index file : {err} (searching in {index_path})")))? }
     };
+    Ok(Html(index_data))
+}
+
+async fn get_index_path(State(ctx): State<Arc<AppCtx>>, path: Path<String>) -> Result<impl IntoResponse, ServerError> {
+
+    let index_path_buf = ctx.config.web_client_config.client_path.join("public").join("index.html");
+    let index_path = index_path_buf.to_str().unwrap();
+    let index_data = match fs::read_to_string(index_path) {
+        Ok(file) => { file }
+        Err(err) => { Err(Error::msg(format!("Cannot find index file : {err} (searching in {index_path})")))? }
+    };
+    let index_data = index_data.replace(r#"data-app_config='{}'"#, format!(r##"data-app_config='{{"path":"{}"}}'"##, path.0).as_str());
     Ok(Html(index_data))
 }

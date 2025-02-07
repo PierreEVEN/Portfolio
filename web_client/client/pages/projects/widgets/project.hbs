@@ -1,0 +1,68 @@
+<div class="project">
+    <div class="h-separator"><div></div></div>
+    <h2>{{title}}</h2>
+    <p>Category : {{category}}</p>
+
+    <h3>Presentation</h3>
+    <div class="project-main">
+        <div class="project-infos">
+            <p>{{description}}</p>
+            <a href="{{link}}">link : {{link}}</a>
+            <table>
+                <tbody>
+                <tr>
+                    <td>
+                        <li>languages</li>
+                    </td>
+                    <td>{{languages}}</td>
+                </tr>
+                <tr>
+                    <td>
+                        <li>libraries</li>
+                    </td>
+                    <td>{{libs}}</td>
+                </tr>
+                <tr>
+                    <td>
+                        <li>Graphics</li>
+                    </td>
+                    <td>{{graphics}}</td>
+                </tr>
+                <tr>
+                    <td>
+                        <li>Start</li>
+                    </td>
+                    <td>{{start}}</td>
+                </tr>
+                <tr>
+                    <td>
+                        <li>Duration</li>
+                    </td>
+                    <td>{{duration}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="project-picture">
+            <img src="{{image}}" alt="{{title}}">
+        </div>
+    </div>
+    <div class="project-features">
+        <h3>Key features :</h3>
+        {{#each features}}
+            <h4>{{name}}</h4>
+            <p>{{description}}</p>
+        {{/each}}
+    </div>
+    <div class="project-gallery">
+        {{#each gallery}}
+            <div class="gallery-item">
+                {{#if image}}<img src="{{image}}" alt="">{{/if}}
+                {{#if youtube}}
+                    <iframe width="100%" src="{{youtube}}" title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>{{/if}}
+            </div>
+        {{/each}}
+    </div>
+</div>
