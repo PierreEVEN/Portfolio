@@ -71,7 +71,7 @@ jobs:
       - run: mkdir portfolio
       - run: mkdir portfolio/migrations
       - run: cp ./lib/libpdfium.so ./portfolio/
-      - run: mv ./artifact_rust_linux/target/release/portfolio-server ./portfolio/
+      - run: mv ./artifact_rust_linux/portfolio-server ./portfolio/
       - run: cp -r ./artifact_web_app/* ./portfolio/
       - run: zip -r portfolio_server_linux.zip ./portfolio/
       - run: rm -r ./portfolio
