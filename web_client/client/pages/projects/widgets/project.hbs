@@ -1,5 +1,7 @@
 <div class="project">
-    <div class="h-separator"><div></div></div>
+    <div class="h-separator">
+        <div></div>
+    </div>
     <h2>{{title}}</h2>
     <p>Category : {{category}}</p>
 
@@ -49,10 +51,12 @@
     </div>
     <div class="project-features">
         <h3>Key features :</h3>
-        {{#each features}}
-            <h4>{{name}}</h4>
-            <p>{{description}}</p>
-        {{/each}}
+        <div class="features">
+            {{#each features}}
+                <h4>{{name}}</h4>
+                <p>{{description}}</p>
+            {{/each}}
+        </div>
     </div>
     <div class="project-gallery">
         {{#each gallery}}

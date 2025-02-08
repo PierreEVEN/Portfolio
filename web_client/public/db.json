@@ -5,8 +5,8 @@
       "category" : "GameEngine",
       "languages": [
         "Cpp",
-        "HLSL",
-        "GLSL"
+        "hlsl",
+        "glsl"
       ],
       "graphics": "Vulkan",
       "description": "After 3 years of research and experimentation, I've decided to begin the development of a game using my own engine. It is currently in an early stage, but having a goal should help me stay focused on the priority features",
@@ -32,9 +32,9 @@
       "category" : "GameEngine",
       "languages": [
         "Java",
-        "GLSL"
+        "glsl"
       ],
-      "graphics": "OpenGL",
+      "graphics": "Opengl",
       "description": "A java game engine made for my 2nd year tutored project at the IUT Robert Shuman. Initially planned to be a 2D engine, I finally decided to switch to 3D",
       "image": "/public/images/portfolio/coffee3d/111083391-a25cec80-850d-11eb-915d-396abed79d8d.png",
       "libs": [
@@ -100,7 +100,7 @@
       "description": "This is my first Vulkan renderer. It has a lot of issues but was a base of experimentation on multiple new technologies",
       "languages": [
         "Cpp",
-        "GLSL"
+        "glsl"
       ],
       "libs": [
         "assimp"
@@ -147,14 +147,14 @@
       "description": "My first game engine project. And also the first time I used C++ outside Unreal Engine",
       "languages": [
         "Cpp",
-        "GLSL"
+        "glsl"
       ],
-      "graphics": "OpenGL",
+      "graphics": "Opengl",
       "image": "/public/images/portfolio/gl_engine/Dynamic_thumbnails.png",
       "link": "https://github.com/PierreEVEN/GLEngine",
       "libs": [
         "assimp",
-        "glfw",
+        "glfw3",
         "glad",
         "stbi",
         "glm"
@@ -215,7 +215,7 @@
       "category" : "Game",
       "languages": [
         "Csharp",
-        "HLSL"
+        "hlsl"
       ],
       "graphics": "Unity",
       "libs": [
@@ -325,7 +325,7 @@
         "Cpp",
         "Blueprint"
       ],
-      "graphics": "UE4",
+      "graphics": "ue4",
       "libs": [
         "blender",
         "substancepainter",
@@ -374,16 +374,16 @@
       "title": "Three Flight Simulator",
       "category" : "Game",
       "languages": [
-        "JS",
-        "GLSL"
+        "js",
+        "glsl"
       ],
-      "graphics": "OpenGL",
+      "graphics": "Opengl",
       "libs": [
         "threejs",
         "emscripten",
         "blender"
       ],
-      "description": "Solo school project for my graphic programming course at the IUT Robert Shuman. I decided to do some studies about flight simulation. We had to use Three.JS, so I made a flight simulator running on web browser",
+      "description": "Solo school project for my graphic programming course at the IUT Robert Shuman. I decided to do some studies about flight simulation. We had to use Three.js, so I made a flight simulator running on web browser",
       "image": "/public/images/portfolio/three_flight_simulator/110435648-8c859c80-80b3-11eb-935e-26e67884091e.png",
       "link": "https://github.com/PierreEVEN/ThreeFlightSimulator",
       "start": "March 2020",
@@ -430,7 +430,7 @@
       "languages": [
         "Blueprint"
       ],
-      "graphics": "UE4",
+      "graphics": "ue4",
       "libs": [],
       "description": "My first game, and also my first IT project",
       "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(86).png",
@@ -560,7 +560,7 @@
       "languages": [
         "Blueprint"
       ],
-      "graphics": "UE4",
+      "graphics": "ue4",
       "libs": [
         "blender",
         "magicavoxel"
@@ -616,7 +616,7 @@
       "languages": [
         "Blueprint"
       ],
-      "graphics": "UE4",
+      "graphics": "ue4",
       "libs": [
         "blender",
         "magicavoxel"
@@ -675,7 +675,7 @@
         "Blueprint",
         "Cpp"
       ],
-      "graphics": "UE4",
+      "graphics": "ue4",
       "libs": [
         "blender"
       ],
@@ -760,13 +760,13 @@
       "languages": [
         "Cpp"
       ],
-      "graphics": "UE4",
+      "graphics": "ue4",
       "description": "Editor tool for the Unreal Engine 4 that add a prefab system optimized for open worlds (made for Qanga). A prefabs is a container of children objects that can be 3D models, lights, other prefabs, or anything else.",
       "image": "/public/images/portfolio/prefab/PrefabEditor(2).png",
       "start": "early 2020",
       "duration": "4 months",
       "libs": [
-        "glfw",
+        "glfw3",
         "stbi",
         "imgui"
       ],
@@ -804,16 +804,16 @@
       "category" : "Tools",
       "languages": [
         "Cpp",
-        "GLSL"
+        "glsl"
       ],
-      "graphics": "OpenGL",
+      "graphics": "Opengl",
       "description": "Someone needed a tool that allow recombining image channel in few clicks, so I made it",
       "image": "/public/images/portfolio/super_packer/113629508-ca4ff380-9666-11eb-9d17-6a4a56f97d09.png",
       "link": "https://github.com/PierreEVEN/SuperPacker",
       "start": "2020",
       "duration": "one evening",
       "libs": [
-        "glfw",
+        "glfw3",
         "stbi",
         "imgui"
       ],
@@ -843,16 +843,16 @@
       "category" : "Misc",
       "languages": [
         "Cpp",
-        "GLSL"
+        "glsl"
       ],
-      "graphics": "OpenGL",
+      "graphics": "Opengl",
       "description": "A linear structure extraction research project where I worked on the implementation of the user interface. Initially under QT (whose licence was no longer compatible with the project), I created an UI library on the top of ImGui that reproduce the behaviour of QT's widgets to permit a quick implementation",
       "image": "/public/images/portfolio/ilsd/ccx02.png",
       "link": "https://github.com/evenp/ILSD",
       "start": "Jun 2020",
       "duration": "2 months",
       "libs": [
-        "glfw",
+        "glfw3",
         "stbi",
         "imgui"
       ],
@@ -893,11 +893,11 @@
     },
     {
       "title": "Led controler",
-      "category" : "IRL",
+      "category" : "Irl",
       "languages": [
         "Cpp"
       ],
-      "graphics": "IRL",
+      "graphics": "Irl",
       "description": "",
       "image": "",
       "link": "https://github.com/PierreEVEN/LedControler",
@@ -954,7 +954,7 @@
       "languages": [
         "Blueprint"
       ],
-      "graphics": "UE4",
+      "graphics": "ue4",
       "description": "",
       "image": "/public/images/portfolio/classe_de_neige/Game.png",
       "link": "https://github.com/PierreEVEN/Fileshare",
@@ -1041,7 +1041,7 @@
         "Cpp",
         "Glsl"
       ],
-      "graphics": "OpenGL",
+      "graphics": "Opengl",
       "description": "1:1 solar system project. Procedural planet rendering, from ground to space.",
       "image": "/public/images/portfolio/planet_engine/b.png",
       "link": "https://github.com/PierreEVEN/PlanetEngine",
@@ -1159,18 +1159,18 @@
     },
     {
       "title": "Urban Tree",
-      "category" : ["Misc", "school"],
+      "category" : ["Misc", "School"],
       "languages": [
         "Cpp",
         "Glsl"
       ],
-      "graphics": "OpenGL",
+      "graphics": "Opengl",
       "description": "Tree segmentation in a 3D point cloud. Extraction of trees from point clouds generated from video data to estimate foliage volumes.",
       "image":  "/public/images/portfolio/urbantree/software.png",
       "link": "https://github.com/PierreEVEN/UrbanTree",
       "start": "",
       "duration": "",
-      "libs": ["eigen", "imgui", "openCV", "gl3w", "happly", "glfw"],
+      "libs": ["eigen", "imgui", "opencv", "gl3w", "happly", "glfw3"],
       "gallery": [
         {
           "image": "/public/images/portfolio/urbantree/2-base.png"
@@ -1197,9 +1197,9 @@
       "category" : ["GameEngine", "School"],
       "languages": [
         "Cpp",
-        "GLSL"
+        "glsl"
       ],
-      "graphics": "OpenGL",
+      "graphics": "Opengl",
       "description": "A MonteCarlo path-tracer",
       "image": "/public/images/portfolio/montecarlo/x.png",
       "link": "https://github.com/PierreEVEN/MonteCarlo",
@@ -1208,7 +1208,7 @@
       "libs": [
         "imgui",
         "eigen",
-        "glfw"
+        "glfw3"
       ],
       "gallery": [
         {
@@ -1231,13 +1231,13 @@
       "languages": [
         "Cpp"
       ],
-      "graphics": "SDL2",
+      "graphics": "sdl2",
       "description": "An almost exact reproduction of the original pacman version from 1980 (which was actually called pucman)",
       "image": "/public/images/portfolio/pucman/a.png",
       "link": "https://github.com/PierreEVEN/puckman",
       "start": "",
       "duration": "",
-      "libs": ["SDL2"],
+      "libs": ["sdl2"],
       "gallery": [
         {
           "image": "/public/images/portfolio/pucman/b.png"
@@ -1281,7 +1281,7 @@
         "Cpp",
         "Blueprint"
       ],
-      "graphics": "UE4",
+      "graphics": "ue4",
       "description": "Mobile tower defence experimentation",
       "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h49m30s519.png",
       "link": "https://github.com/PierreEVEN/waterpixels",
@@ -1322,7 +1322,7 @@
         "Cpp",
         "Blueprint"
       ],
-      "graphics": "UE4",
+      "graphics": "ue4",
       "description": "My first attempt at creating procedural infinite landscapes",
       "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(5).png",
       "start": "",

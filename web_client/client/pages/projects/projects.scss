@@ -1,11 +1,60 @@
 
 .project-div {
   align-items: center;
-  width: 80%;
+  width: 90%;
   overflow: scroll;
+
   p {
-    width: 80%;
-    text-align: center;
+    text-align: justify;
+  }
+
+  .project-filters {
+    align-items: center;
+
+    h2 {
+      padding: 0 10px;
+    }
+
+    input {
+      padding: 16px;
+      margin: 0 10px;
+      font-size: 16px;
+    }
+
+    .filter-dropdown {
+      position: relative;
+      display: inline-block;
+
+      .main_btn {
+        background-color: #c6af1e;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+
+      .main-filters {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      button:hover {
+        background-color: #ddd;
+      }
+
+      &:hover .main-filters {
+        display: flex;
+      }
+
+      &:hover .main_btn {
+        background-color: #dd702d;
+      }
+    }
   }
 
   flex-direction: column;

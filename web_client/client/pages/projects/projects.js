@@ -24,6 +24,11 @@ class Projects extends PageBase {
             }
         });
         this.container = page.elements.container;
+        this.category_list = page.elements.category_list;
+        this.language_list = page.elements.language_list;
+        this.lib_list = page.elements.lib_list;
+        this.graphic_list = page.elements.graphic_list;
+        this.search_bar = page.elements.search_bar;
         parent.append(page)
         this.update();
     }
@@ -36,6 +41,38 @@ class Projects extends PageBase {
 
     update_display() {
         this.container.innerHTML = '';
+
+        this.category_list.innerHTML = '';
+        for (const cat of Array.from(this.data.category.keys()).sort()) {
+            const opt = document.createElement('button');
+            opt.value = cat;
+            opt.innerText = cat;
+            this.category_list.append(opt)
+        }
+
+        this.language_list.innerHTML = '';
+        for (const cat of Array.from(this.data.languages.keys()).sort()) {
+            const opt = document.createElement('button');
+            opt.value = cat;
+            opt.innerText = cat;
+            this.language_list.append(opt)
+        }
+
+        this.lib_list.innerHTML = '';
+        for (const cat of Array.from(this.data.libs.keys()).sort()) {
+            const opt = document.createElement('button');
+            opt.value = cat;
+            opt.innerText = cat;
+            this.lib_list.append(opt)
+        }
+
+        this.graphic_list.innerHTML = '';
+        for (const cat of Array.from(this.data.graphics.keys()).sort()) {
+            const opt = document.createElement('button');
+            opt.value = cat;
+            opt.innerText = cat;
+            this.graphic_list.append(opt)
+        }
         for (const project of this.data.projects) {
             new Project(this.container, project);
         }
@@ -43,28 +80,45 @@ class Projects extends PageBase {
 
     parse_data(db_data) {
         this.data = new ProjectData();
+
+        const formater = (w) => {
+            return w;//return w[0].toUpperCase() + w.slice(1).replace(/([A-Z])/g, ' $1').toLowerCase();
+        }
+
         for (const project of db_data.projects) {
             this.data.projects.push(project)
 
-            if (!this.data.category.has(project.category))
-                this.data.category.set(project.category, []);
-            this.data.category.get(project.category).push(project);
+            if (project.category)
+                for (const category of (typeof (project.category) === 'string' ? [project.category] : project.category)) {
+                    const cat = formater(category);
+                    if (!this.data.category.has(cat))
+                        this.data.category.set(cat, []);
+                    this.data.category.get(cat).push(project);
+                }
 
-            for (const language of project.languages) {
-                if (!this.data.languages.has(language))
-                    this.data.languages.set(language, []);
-                this.data.languages.get(language).push(project);
-            }
+            if (project.languages)
+                for (const language of project.languages) {
+                    const cat = formater(language);
+                    if (!this.data.languages.has(cat))
+                        this.data.languages.set(cat, []);
+                    this.data.languages.get(cat).push(project);
+                }
 
-            for (const lib of project.libs) {
-                if (!this.data.libs.has(lib))
-                    this.data.libs.set(lib, []);
-                this.data.libs.get(lib).push(project);
-            }
+            if (project.libs)
+                for (const lib of project.libs) {
+                    const cat = formater(lib);
+                    if (!this.data.libs.has(cat))
+                        this.data.libs.set(cat, []);
+                    this.data.libs.get(cat).push(project);
+                }
 
-            if (!this.data.graphics.has(project.graphics))
-                this.data.graphics.set(project.graphics, []);
-            this.data.graphics.get(project.graphics).push(project);
+            if (project.graphics)
+                for (const graphic of (typeof (project.graphics) === 'string' ? [project.graphics] : project.graphics)) {
+                    const cat = formater(graphic);
+                    if (!this.data.graphics.has(cat))
+                        this.data.graphics.set(cat, []);
+                    this.data.graphics.get(cat).push(project);
+                }
         }
     }
 
