@@ -1,13 +1,15 @@
 
 .project-div {
   align-items: center;
-
+  width: 80%;
+  overflow: scroll;
   p {
     width: 80%;
-    text-align:center;
+    text-align: center;
   }
 
   flex-direction: column;
+
   .project-list {
     display: flex;
     flex-direction: column;

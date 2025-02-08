@@ -1,0 +1,14 @@
+.main {
+  width: 80%;
+  flex-direction: column;
+
+  p {
+    text-align: justify;
+    margin: 20px;
+  }
+
+  .section {
+    margin: 20px;
+    flex-direction: column;
+  }
+}

@@ -59,9 +59,7 @@
             <div class="gallery-item">
                 {{#if image}}<img src="{{image}}" alt="">{{/if}}
                 {{#if youtube}}
-                    <iframe width="100%" src="{{youtube}}" title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>{{/if}}
+                    <iframe width="100%" src="{{youtube}}" allowfullscreen></iframe>{{/if}}
             </div>
         {{/each}}
     </div>
