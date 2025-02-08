@@ -63,14 +63,9 @@ jobs:
           name: webapp-artifact
           path: ./artifact_web_app/public
 
-      # Download Pdfium binaries
-      - run: wget https://github.com/bblanchon/pdfium-binaries/releases/latest/download/pdfium-linux-x64.tgz
-      - run: tar zxvf pdfium-linux-x64.tgz
-
       # Create Linux server zip
       - run: mkdir portfolio
       - run: mkdir portfolio/migrations
-      - run: cp ./lib/libpdfium.so ./portfolio/
       - run: mv ./artifact_rust_linux/portfolio-server ./portfolio/
       - run: cp -r ./artifact_web_app/* ./portfolio/
       - run: zip -r portfolio_server_linux.zip ./portfolio/

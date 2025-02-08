@@ -4,12 +4,28 @@
   width: 90%;
   overflow: scroll;
 
+  .summary {
+    width: 90%;
+  }
+
   p {
     text-align: justify;
   }
 
   .project-filters {
     align-items: center;
+
+    @media (orientation: portrait) {
+      flex-direction: column;
+
+      .filter-dropdown {
+        width: 80%;
+
+        button {
+          width: 100%;
+        }
+      }
+    }
 
     h2 {
       padding: 0 10px;

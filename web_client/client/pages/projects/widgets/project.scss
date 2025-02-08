@@ -38,6 +38,10 @@
 
       table {
         margin: 2em;
+
+        td {
+          overflow-wrap: break-word;
+        }
       }
 
       @media (orientation: portrait) {
