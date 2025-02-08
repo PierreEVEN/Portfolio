@@ -425,6 +425,136 @@
       ]
     },
     {
+      "title": "Beyond Galaxy",
+      "category" : "Game",
+      "languages": [
+        "Blueprint"
+      ],
+      "graphics": "UE4",
+      "libs": [],
+      "description": "My first game, and also my first IT project",
+      "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(86).png",
+      "start": "",
+      "duration": "",
+      "features": [],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(1).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(6).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(7).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(16).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(25).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(26).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(29).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(45).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(64).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(67).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(69).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(73).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(83).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(94).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(100).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(101).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(107).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(110).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(116).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(118).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(127).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(139).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(145).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(153).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(164).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(166).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(179).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(182).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(186).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(194).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(201).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(207).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(211).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(217).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(220).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(227).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(236).png"
+        },
+        {
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(237).png"
+        }
+      ]
+    },
+    {
       "title": "Le postier de Fakarava",
       "category" : "Game",
       "languages": [
@@ -459,11 +589,29 @@
         },
         {
           "image": "/public/images/portfolio/le_postier_de_fakarava/100242407-08a90980-2f35-11eb-833f-31f9dd87b0b8.png"
+        },
+        {
+          "image": "/public/images/portfolio/le_postier_de_fakarava/b.png"
+        },
+        {
+          "image": "/public/images/portfolio/le_postier_de_fakarava/a.png"
+        },
+        {
+          "image": "/public/images/portfolio/le_postier_de_fakarava/c.png"
+        },
+        {
+          "image": "/public/images/portfolio/le_postier_de_fakarava/d.png"
+        },
+        {
+          "image": "/public/images/portfolio/le_postier_de_fakarava/e.png"
+        },
+        {
+          "image": "/public/images/portfolio/le_postier_de_fakarava/f.png"
         }
       ]
     },
     {
-      "title": "Le postier de Fakarava - 'Chad version'",
+      "title": "Le postier de Fakarava - 'Democraty edition'",
       "category" : "Game",
       "languages": [
         "Blueprint"
@@ -557,6 +705,53 @@
           "name": "Sandbox",
           "description": "Build your home, fight AI, waves, boss, defend your base"
         }
+      ],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(61).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(48).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(7).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(4).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(9).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(36).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(48).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(8).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(5).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(11).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(31).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(46).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(40).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(34).png"
+        },
+        {
+          "image": "/public/images/portfolio/qanga/Qanga(41).png"
+        }
       ]
     },
     {
@@ -567,8 +762,7 @@
       ],
       "graphics": "UE4",
       "description": "Editor tool for the Unreal Engine 4 that add a prefab system optimized for open worlds (made for Qanga). A prefabs is a container of children objects that can be 3D models, lights, other prefabs, or anything else.",
-      "image": "",
-      "link": "",
+      "image": "/public/images/portfolio/prefab/PrefabEditor(2).png",
       "start": "early 2020",
       "duration": "4 months",
       "libs": [
@@ -596,6 +790,12 @@
         },
         {
           "youtube": "https://www.youtube.com/embed/1-_JRkDrqDI"
+        },
+        {
+          "image": "/public/images/portfolio/prefab/PrefabEditor(7).png"
+        },
+        {
+          "image": "/public/images/portfolio/prefab/PrefabEditor(8).png"
         }
       ]
     },
@@ -620,6 +820,21 @@
       "gallery": [
         {
           "image": "/public/images/portfolio/super_packer/icon.png"
+        },
+        {
+          "image": "/public/images/portfolio/super_packer/image.webp"
+        },
+        {
+          "image": "/public/images/portfolio/super_packer/1.webp"
+        },
+        {
+          "image": "/public/images/portfolio/super_packer/image2.webp"
+        },
+        {
+          "image": "/public/images/portfolio/super_packer/image3.webp"
+        },
+        {
+          "image": "/public/images/portfolio/super_packer/image4.webp"
         }
       ]
     },
@@ -719,15 +934,20 @@
       ],
       "graphics": "web",
       "description": "",
-      "image": "",
+      "image": "/public/images/portfolio/fileshare/a.png",
       "link": "https://github.com/PierreEVEN/Fileshare",
       "start": "",
       "duration": "",
       "libs": [],
       "gallery": [
+        {
+          "image": "/public/images/portfolio/fileshare/b.png"
+        },
+        {
+          "image": "/public/images/portfolio/fileshare/c.png"
+        }
       ]
     },
-
     {
       "title": "Classe de nei/g/e",
       "category" : "Game",
@@ -743,7 +963,60 @@
       "libs": [],
       "gallery": [
         {
-          "image": "/public/images/portfolio/classe_de_neige/Game.png"
+          "image": "/public/images/portfolio/classe_de_neige/game2.png"
+        }
+      ]
+    },
+    {
+      "title": "Blender & other creations",
+      "category" : "Game",
+      "graphics": "Blender",
+      "languages": [],
+      "description": "",
+      "image": "/public/images/portfolio/blender/Blender(33).png",
+      "link": "https://github.com/PierreEVEN/Fileshare",
+      "start": "",
+      "duration": "4 days",
+      "libs": [],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/blender/Blender(37).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(35).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(34).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(32).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(28).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(26).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(24).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(18).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(17).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(10).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(7).png"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(4).jpg"
+        },
+        {
+          "image": "/public/images/portfolio/blender/Blender(1).jpg"
         }
       ]
     },
@@ -769,13 +1042,323 @@
         "Glsl"
       ],
       "graphics": "OpenGL",
-      "description": "",
-      "image": "",
+      "description": "1:1 solar system project. Procedural planet rendering, from ground to space.",
+      "image": "/public/images/portfolio/planet_engine/b.png",
       "link": "https://github.com/PierreEVEN/PlanetEngine",
+      "start": "",
+      "duration": "",
+      "libs": ["assimp", "glfw3", "imgui", "eigen"],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/planet_engine/1.webp"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/2.webp"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/3.png"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/a.png"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/c.png"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/d.png"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/e.png"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/f.png"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/g.png"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/h.png"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/i.png"
+        },
+        {
+          "image": "/public/images/portfolio/planet_engine/bloom.png"
+        }
+      ]
+    },
+    {
+      "title": "RC F16",
+      "category" : "Irl",
+      "languages": [],
+      "graphics": "Irl",
+      "description": "",
+      "image": "/public/images/portfolio/f16/IMG_20230714_182632.jpg",
+      "link": "",
       "start": "",
       "duration": "",
       "libs": [],
       "gallery": [
+        {
+          "image": "/public/images/portfolio/f16/IMG_20230612_140634.jpg"
+        },
+        
+        {
+          "image": "/public/images/portfolio/f16/IMG_20230627_185026.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG_20230627_185036.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG_20230627_185044.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG_20230708_214816.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG_20230708_214821.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG_20230709_135631.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG_20230730_192552.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230611-WA0018.jpg"
+        },
+
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230612-WA0006.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230612-WA0027.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230623-WA0012.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230623-WA0019.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230624-WA0005.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230625-WA0013.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230626-WA0004.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230630-WA0005.jpg"
+        },
+        {
+          "image": "/public/images/portfolio/f16/IMG-20230708-WA0009.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Urban Tree",
+      "category" : ["Misc", "school"],
+      "languages": [
+        "Cpp",
+        "Glsl"
+      ],
+      "graphics": "OpenGL",
+      "description": "Tree segmentation in a 3D point cloud. Extraction of trees from point clouds generated from video data to estimate foliage volumes.",
+      "image":  "/public/images/portfolio/urbantree/software.png",
+      "link": "https://github.com/PierreEVEN/UrbanTree",
+      "start": "",
+      "duration": "",
+      "libs": ["eigen", "imgui", "openCV", "gl3w", "happly", "glfw"],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/urbantree/2-base.png"
+        },
+        {
+          "image": "/public/images/portfolio/urbantree/2-final.png"
+        },
+        {
+          "image": "/public/images/portfolio/urbantree/global-view-blank.png"
+        },
+        {
+          "image": "/public/images/portfolio/urbantree/pathfinding.png"
+        },
+        {
+          "image": "/public/images/portfolio/urbantree/results.png"
+        },
+        {
+          "image": "/public/images/portfolio/urbantree/trunck-error.png"
+        }
+      ]
+    },
+    {
+      "title": "MonteCarlo path-tracer",
+      "category" : ["GameEngine", "School"],
+      "languages": [
+        "Cpp",
+        "GLSL"
+      ],
+      "graphics": "OpenGL",
+      "description": "A MonteCarlo path-tracer",
+      "image": "/public/images/portfolio/montecarlo/x.png",
+      "link": "https://github.com/PierreEVEN/MonteCarlo",
+      "start": "",
+      "duration": "",
+      "libs": [
+        "imgui",
+        "eigen",
+        "glfw"
+      ],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/montecarlo/n.png"
+        },
+        {
+          "image": "/public/images/portfolio/montecarlo/mn.png"
+        },
+        {
+          "image": "/public/images/portfolio/montecarlo/demo.png"
+        },
+        {
+          "image": "/public/images/portfolio/montecarlo/alpha.png"
+        }
+      ]
+    },
+    {
+      "title": "Pucman",
+      "category" : ["Game", "School"],
+      "languages": [
+        "Cpp"
+      ],
+      "graphics": "SDL2",
+      "description": "An almost exact reproduction of the original pacman version from 1980 (which was actually called pucman)",
+      "image": "/public/images/portfolio/pucman/a.png",
+      "link": "https://github.com/PierreEVEN/puckman",
+      "start": "",
+      "duration": "",
+      "libs": ["SDL2"],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/pucman/b.png"
+        },
+        {
+          "image": "/public/images/portfolio/pucman/c.png"
+        }
+      ]
+    },
+    {
+      "title": "Waterpixels",
+      "category" : ["Misc", "School"],
+      "languages": [
+        "Cpp"
+      ],
+      "description": "Implementation of the waterpixels segmentation algorithm from V.Machairas et al.",
+      "image": "/public/images/portfolio/waterpixels/combined_Linfdist.png",
+      "link": "https://github.com/PierreEVEN/waterpixels",
+      "start": "",
+      "duration": "",
+      "libs": ["libtim", "glm", "openmp"],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/waterpixels/combined_spacing_0.6.png"
+        },
+        {
+          "image": "/public/images/portfolio/waterpixels/combinedHexL2.png"
+        },
+        {
+          "image": "/public/images/portfolio/waterpixels/spatialRegularizationGradient_rand.png"
+        },
+        {
+          "image": "/public/images/portfolio/waterpixels/watershedSources_rand.png"
+        }
+      ]
+    },
+    {
+      "title": "ProjectT",
+      "category" : ["Game"],
+      "languages": [
+        "Cpp",
+        "Blueprint"
+      ],
+      "graphics": "UE4",
+      "description": "Mobile tower defence experimentation",
+      "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h49m30s519.png",
+      "link": "https://github.com/PierreEVEN/waterpixels",
+      "start": "",
+      "duration": "",
+      "libs": [],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/projet_t/ProjetT(1).png"
+        },
+        {
+          "image": "/public/images/portfolio/projet_t/ProjetT(2).png"
+        },
+        {
+          "image": "/public/images/portfolio/projet_t/ProjetT(3).png"
+        },
+        {
+          "image": "/public/images/portfolio/projet_t/ProjetT(4).png"
+        },
+        {
+          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h48m04s550.png"
+        },
+        {
+          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h50m27s365.png"
+        },
+        {
+          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h50m45s156.png"
+        },
+        {
+          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h51m01s939.png"
+        }
+      ]
+    },
+    {
+      "title": "Procedural landscape",
+      "category" : ["Game"],
+      "languages": [
+        "Cpp",
+        "Blueprint"
+      ],
+      "graphics": "UE4",
+      "description": "My first attempt at creating procedural infinite landscapes",
+      "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(5).png",
+      "start": "",
+      "duration": "",
+      "libs": [],
+      "gallery": [
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(6).png"
+        },
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(8).png"
+        },
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(7).png"
+        },
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(10).png"
+        },
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(11).png"
+        },
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(12).png"
+        },
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(13).png"
+        },
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(15).png"
+        },
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(16).png"
+        },
+        {
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(19).png"
+        }
       ]
     }
   ]
