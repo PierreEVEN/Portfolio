@@ -3,6 +3,8 @@
   height: 100%;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  overflow: clip;
 
   img {
     object-fit: contain;
