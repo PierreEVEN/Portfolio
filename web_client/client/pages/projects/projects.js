@@ -14,13 +14,77 @@ class ProjectData {
     }
 }
 
+function getDateTimeSince(target) {
+    let seconds = Math.floor(target / 1000),
+        minutes = Math.floor(seconds / 60),
+        hours = Math.floor(minutes / 60),
+        days = Math.floor(hours / 24),
+        months = Math.floor(days / 30),
+        years = Math.floor(days / 365);
+    days %= 30;
+    months %= 12;
+
+    let str = "";
+    if (years > 0) {
+        str += years + (years > 1 ? " years" : " year")
+        if (months > 0)
+            str += ", " + months + (months > 1 ? " months" : " month")
+    } else if (months > 0) {
+        str += months + (months > 1 ? " months" : " month")
+        if (days > 0)
+            str += ", " + days + (days > 1 ? " days" : " day")
+    } else if (days > 0)
+        str += days + (days > 1 ? " days" : " day")
+
+    return str;
+}
+
+let CURRENT_SORT_FN = (a, b) => {
+    return (b.score || 0) - (a.score || 0);
+}
+let CURRENT_FILTER_TEXT = "";
+const SORT_FN = {
+    "end date": (a, b) => {
+        if (!a.end && b.end)
+            return Date.parse(b.end);
+        if (!b.end && a.end)
+            return -Date.parse(a.end);
+        if (!a.end && !b.end)
+            return 0;
+        return Date.parse(b.end) - Date.parse(a.end);
+    },
+    "start date": (a, b) => {
+        if (!a.start && b.start)
+            return Date.parse(b.start);
+        if (!b.start && a.start)
+            return -Date.parse(a.start);
+        if (!a.start && !b.start)
+            return 0;
+        return Date.parse(b.start) - Date.parse(a.start);
+    },
+    "name": (a, b) => {
+        return a.title === b.title ? 0 : a.title > b.title ? 1 : -1
+    },
+    "duration": (a, b) => {
+        const a_dur = Date.parse(a.end) - Date.parse(a.start);
+        const b_dur = Date.parse(b.end) - Date.parse(b.start);
+
+        if (!a_dur && b_dur)
+            return b_dur;
+        if (!b_dur && a_dur)
+            return -a_dur;
+        if (!a_dur && !b_dur)
+            return 0;
+        return b_dur - a_dur;
+    }
+}
+
 class Projects extends PageBase {
     constructor(parent) {
         super(parent);
         const page = require('./projects.hbs')({}, {
             goto: (event, target) => {
                 event.preventDefault();
-                console.log("goto ", target)
             }
         });
         this.container = page.elements.container;
@@ -29,7 +93,26 @@ class Projects extends PageBase {
         this.lib_list = page.elements.lib_list;
         this.graphic_list = page.elements.graphic_list;
         this.search_bar = page.elements.search_bar;
+        this.sort_list = page.elements.sort_list;
+        this.sort_btn = page.elements.sort_btn;
+        page.elements.search_bar.oninput = () => {
+            CURRENT_FILTER_TEXT = page.elements.search_bar.value;
+            this.update_display();
+        }
         parent.append(page)
+
+        for (const cat of Object.keys(SORT_FN)) {
+            const opt = document.createElement('button');
+            opt.value = cat;
+            opt.innerText = cat;
+            opt.onclick = () => {
+                CURRENT_SORT_FN = SORT_FN[cat];
+                this.sort_btn.innerText = `Sort by ${cat}`;
+                this.update_display();
+            }
+            this.sort_list.append(opt)
+        }
+
         this.update();
     }
 
@@ -42,6 +125,7 @@ class Projects extends PageBase {
     update_display() {
         this.container.innerHTML = '';
 
+        /*
         this.category_list.innerHTML = '';
         for (const cat of Array.from(this.data.category.keys()).sort()) {
             const opt = document.createElement('button');
@@ -73,7 +157,27 @@ class Projects extends PageBase {
             opt.innerText = cat;
             this.graphic_list.append(opt)
         }
-        for (const project of this.data.projects) {
+*/
+        const project_sorted = this.data.projects.sort(CURRENT_SORT_FN).filter((item) => {
+            return CURRENT_FILTER_TEXT === "" ||
+                item.title.includes(CURRENT_FILTER_TEXT) ||
+                (item.description && item.description.includes(CURRENT_FILTER_TEXT))
+        })
+
+        for (const project of project_sorted) {
+            let date = Date.parse(project.start);
+
+            let end = Date.parse(project.end);
+
+            let dur = end - date;
+            if (dur) {
+                dur = getDateTimeSince(new Date(end - date))
+                project.duration = dur;
+            }
+            if (date)
+                date = new Date(date).toDateString();
+            if (end)
+                end = new Date(end).toDateString();
             new Project(this.container, project);
         }
     }

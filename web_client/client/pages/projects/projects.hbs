@@ -1,29 +1,40 @@
 <div class="project-div dark-background">
-
     <h1>Project showcase</h1>
-    <p class="summary">Passionate in game development, and by the way a fan of space simulations, I unfortunately quickly came up
-        against the limitations of existing game engines. That's why I decided to do some research to creating my own
-        game engine. The projects presented on this page are mostly unfinished and were made for learning purposes.</p>
+    <p class="summary">
+        As a fan of space, airplanes, simulations and sandbox games, I'm working on a big game project that
+        would bring all these interests together. <br>
+        However, I soon came up against the limitations of existing game
+        engines, hence the idea of creating my own game engine for that purpose because - Hell yeah, why not !?<br>
+        All of these projects are, in way or another, a little brick toward that larger goal, honing my skills to
+        bring me closer to the day when I can realize my dream.
+    </p>
+    <p style="font-style: italic">Yeah, it's indeed unrealistic, but I'm having a lot of fun doing this stuff !
+        I'll see where it takes me :)</p>
 
     <div class="project-filters">
         <h2>Filters</h2>
         <input type="text" placeholder="Search.." {{object "search_bar"}}>
         <div class="filter-dropdown">
+            <button class="main_btn" {{object "sort_btn"}}>Sort by ...</button>
+            <div class="main-filters" {{object "sort_list"}}></div>
+        </div>
+        <!--
+        <div class="filter-dropdown">
             <button class="main_btn">Category</button>
-            <div class="main-filters" {{object "category_list"}}></div>
+            <div class="main-filters" ></div>
         </div>
         <div class="filter-dropdown">
             <button class="main_btn">Language</button>
-            <div class="main-filters" {{object "language_list"}}></div>
+            <div class="main-filters" ></div>
         </div>
         <div class="filter-dropdown">
             <button class="main_btn">Library</button>
-            <div class="main-filters" {{object "lib_list"}}></div>
+            <div class="main-filters" ></div>
         </div>
         <div class="filter-dropdown">
             <button class="main_btn">Graphics</button>
-            <div class="main-filters" {{object "graphic_list"}}></div>
-        </div>
+            <div class="main-filters" ></div>
+        </div>-->
     </div>
     <div {{object "container"}} class="project-list">
 

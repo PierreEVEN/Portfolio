@@ -2,6 +2,7 @@
   "projects": [
     {
       "title": "Headless Engine",
+      "score" : 11,
       "category" : "GameEngine",
       "languages": [
         "Cpp",
@@ -12,8 +13,8 @@
       "description": "After 3 years of research and experimentation, I've decided to begin the development of a game using my own engine. It is currently in an early stage, but having a goal should help me stay focused on the priority features",
       "image": "/public/images/portfolio/headless_engine/136795565-0bfdb609-ef96-44de-9579-f8c0b2a79f83.png",
       "link": "https://github.com/PierreEVEN/HeadlessEngine",
-      "start": "Sept 2021",
-      "duration": "Still in progress",
+      "start": "3 Oct 2021",
+      "end": "21 Feb 2022",
       "libs": [
         "glm",
         "glslang",
@@ -30,6 +31,7 @@
     {
       "title": "Coffee 3D",
       "category" : "GameEngine",
+      "score" : 16,
       "languages": [
         "Java",
         "glsl"
@@ -43,8 +45,8 @@
         "pngdecoder",
         "imgui"
       ],
-      "start": "October 2020",
-      "duration": "2 months",
+      "start": "Oct 5, 2020",
+      "end": "Jun 20, 2021",
       "link": "https://github.com/PierreEVEN/Coffee3D",
       "features": [
         {
@@ -96,6 +98,7 @@
     },
     {
       "title": "VkEngine",
+      "score" : 12,
       "category" : "GameEngine",
       "description": "This is my first Vulkan renderer. It has a lot of issues but was a base of experimentation on multiple new technologies",
       "languages": [
@@ -108,8 +111,8 @@
       "graphics": "Vulkan",
       "image": "/public/images/portfolio/vk_engine/100238685-c7aef600-2f30-11eb-9e6f-488f19a76aa7.png",
       "link": "https://github.com/PierreEVEN/VkEngine",
-      "start": "Jun 2020",
-      "duration": "3 months",
+      "start": "Jun 29, 2020",
+      "end": "Jul 5, 2021",
       "features": [
         {
           "name": "Automatic code reflection",
@@ -143,6 +146,7 @@
     },
     {
       "title": "GLEngine",
+      "score" : 13,
       "category" : "GameEngine",
       "description": "My first game engine project. And also the first time I used C++ outside Unreal Engine",
       "languages": [
@@ -159,8 +163,8 @@
         "stbi",
         "glm"
       ],
-      "start": "September 2019",
-      "duration": "4 months",
+      "start": "Nov 24, 2019",
+      "end": "Oct 23, 2020",
       "features": [
         {
           "name": "Simple lighting",
@@ -213,6 +217,7 @@
     {
       "title": "Scuffly",
       "category" : "Game",
+      "score" : 25,
       "languages": [
         "Csharp",
         "hlsl"
@@ -226,8 +231,8 @@
       "description": "Scuffly is a flight simulator made in solo for my 3rd year 3D game engine course at the University of Strasbourg. This project is a continuation of my previous project : Three Flight Simulator",
       "image": "/public/images/portfolio/scuffly/150693061-23689e9d-7b62-4396-b706-0d510ff6ebde.png",
       "link": "https://github.com/PierreEVEN/Scuffly",
-      "start": "October 2021",
-      "duration": "2 months",
+      "start": "Oct 1, 2021",
+      "end": "dec 6, 2021",
       "features": [
         {
           "name": "Aerodynamic simulation",
@@ -321,6 +326,7 @@
     {
       "title": "Randonnée à Dut'",
       "category" : "Game",
+      "score" : 8,
       "languages": [
         "Cpp",
         "Blueprint"
@@ -334,8 +340,8 @@
       "description": "School project in teams of 4 students : serious game that learn the consequences of the development of hiking in Germany at the end of the 18th century.",
       "image": "/public/images/portfolio/randonnee_a_dut/Screen6.png",
       "link": "https://git.unistra.fr/la-barre-oblique/randonneeadut",
-      "start": "October 2021",
-      "duration": "2 months",
+      "start": "Mar 26, 2021",
+      "end": "Apr 01, 2021",
       "features": [
         {
           "name": "City builder",
@@ -373,6 +379,7 @@
     {
       "title": "Three Flight Simulator",
       "category" : "Game",
+      "score" : 17,
       "languages": [
         "js",
         "glsl"
@@ -386,8 +393,8 @@
       "description": "Solo school project for my graphic programming course at the IUT Robert Shuman. I decided to do some studies about flight simulation. We had to use Three.js, so I made a flight simulator running on web browser",
       "image": "/public/images/portfolio/three_flight_simulator/110435648-8c859c80-80b3-11eb-935e-26e67884091e.png",
       "link": "https://github.com/PierreEVEN/ThreeFlightSimulator",
-      "start": "March 2020",
-      "duration": "2 months",
+      "start": "Jan 28, 2021",
+      "end": "Jun 20, 2021",
       "features": [
         {
           "name": "Procedural landscape",
@@ -427,6 +434,7 @@
     {
       "title": "Beyond Galaxy",
       "category" : "Game",
+      "score" : 9,
       "languages": [
         "Blueprint"
       ],
@@ -434,8 +442,8 @@
       "libs": [],
       "description": "My first game, and also my first IT project",
       "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(86).png",
-      "start": "",
-      "duration": "",
+      "start": "Jun 28, 2017",
+      "end": "Sep 21, 2017",
       "features": [],
       "gallery": [
         {
@@ -557,6 +565,7 @@
     {
       "title": "Le postier de Fakarava",
       "category" : "Game",
+      "score" : 11,
       "languages": [
         "Blueprint"
       ],
@@ -568,8 +577,8 @@
       "description": "Context : game jam about 'Fakarava' and 'minimalist'. With a friend, we built a tiny casual glider delivery game ",
       "image": "/public/images/portfolio/le_postier_de_fakarava/Map.png",
       "link": "https://github.com/PierreEVEN/LePostierDeFakarava",
-      "start": "February 2020",
-      "duration": "2 days",
+      "start": "Jan 15, 2020",
+      "end": "Jan 17, 2020",
       "features": [
         {
           "name": "Arcade flight model",
@@ -613,6 +622,7 @@
     {
       "title": "Le postier de Fakarava - 'Democraty edition'",
       "category" : "Game",
+      "score" : 10,
       "languages": [
         "Blueprint"
       ],
@@ -624,8 +634,8 @@
       "description": "After the game jam, I decided to continue the project on my side and try some more advanced experimentation for fun",
       "image": "/public/images/portfolio/le_postier_de_fakarava_2/100242034-a0f2be80-2f34-11eb-97ed-c2bc40bafd93.png",
       "link": "https://github.com/PierreEVEN/LePostierDeFakarava",
-      "start": "February 2020",
-      "duration": "1 month",
+      "start": "Jan 17, 2020",
+      "end": "Feb 25, 2020",
       "features": [
         {
           "name": "Arcade flight model",
@@ -671,6 +681,7 @@
     {
       "title": "Qanga",
       "category" : "Game",
+      "score" : 20,
       "languages": [
         "Blueprint",
         "Cpp"
@@ -682,7 +693,8 @@
       "description": "A massive multiplayer open world by iolaCorp. I worked on gameplay features there between 2017 and 2019",
       "image": "/public/images/portfolio/qanga/mpc-hc64_ei7dJY3Nq2_60255bceda662.jpg",
       "link": "https://qanga.iolacorp.com",
-      "start": "early 2017",
+      "start": "Sep 20, 2017",
+      "end": "Oct 1, 2019",
       "duration": "Still in active development, I leaved the project in 2019",
       "features": [
         {
@@ -757,14 +769,15 @@
     {
       "title": "Prefab tool",
       "category" : "Tools",
+      "score" : 3,
       "languages": [
         "Cpp"
       ],
       "graphics": "ue4",
       "description": "Editor tool for the Unreal Engine 4 that add a prefab system optimized for open worlds (made for Qanga). A prefabs is a container of children objects that can be 3D models, lights, other prefabs, or anything else.",
       "image": "/public/images/portfolio/prefab/PrefabEditor(2).png",
-      "start": "early 2020",
-      "duration": "4 months",
+      "start": "Jan 1, 2020",
+      "end": "May 1, 2020",
       "libs": [
         "glfw3",
         "stbi",
@@ -802,6 +815,7 @@
     {
       "title": "Super packer",
       "category" : "Tools",
+      "score" : 5,
       "languages": [
         "Cpp",
         "glsl"
@@ -810,8 +824,8 @@
       "description": "Someone needed a tool that allow recombining image channel in few clicks, so I made it",
       "image": "/public/images/portfolio/super_packer/113629508-ca4ff380-9666-11eb-9d17-6a4a56f97d09.png",
       "link": "https://github.com/PierreEVEN/SuperPacker",
-      "start": "2020",
-      "duration": "one evening",
+      "start": "Mar 25, 2021",
+      "end": "Mar 26, 2021",
       "libs": [
         "glfw3",
         "stbi",
@@ -841,6 +855,7 @@
     {
       "title": "ILSD",
       "category" : "Misc",
+      "score" : 6,
       "languages": [
         "Cpp",
         "glsl"
@@ -849,8 +864,8 @@
       "description": "A linear structure extraction research project where I worked on the implementation of the user interface. Initially under QT (whose licence was no longer compatible with the project), I created an UI library on the top of ImGui that reproduce the behaviour of QT's widgets to permit a quick implementation",
       "image": "/public/images/portfolio/ilsd/ccx02.png",
       "link": "https://github.com/evenp/ILSD",
-      "start": "Jun 2020",
-      "duration": "2 months",
+      "start": "Jun 15, 2020",
+      "end": "Aug 28, 2020",
       "libs": [
         "glfw3",
         "stbi",
@@ -865,6 +880,7 @@
     {
       "title": "Taranis",
       "category" : "GameEngine",
+      "score" : 21,
       "languages": [
         "Cpp",
         "slang"
@@ -873,8 +889,8 @@
       "description": "",
       "image": "/public/images/portfolio/taranis/shadows.jpg",
       "link": "https://github.com/PierreEVEN/Taranis",
-      "start": "Nov 2024",
-      "duration": "Still in progress",
+      "start": "Oct 29, 2024",
+      "end": "Feb 09, 2025",
       "libs": [
         "glm",
         "slang",
@@ -894,6 +910,7 @@
     {
       "title": "Led controler",
       "category" : "Irl",
+      "score" : 5,
       "languages": [
         "Cpp"
       ],
@@ -901,8 +918,8 @@
       "description": "",
       "image": "",
       "link": "https://github.com/PierreEVEN/LedControler",
-      "start": "Nov 2024",
-      "duration": "1 week",
+      "start": "Dec 29, 2024",
+      "end": "Jan 2, 2025",
       "libs": [],
       "gallery": [
       ]
@@ -910,6 +927,7 @@
     {
       "title": "Rust3D",
       "category" : "GameEngine",
+      "score" : 3,
       "languages": [
         "Rust",
         "Hlsl"
@@ -918,15 +936,15 @@
       "description": "",
       "image": "",
       "link": "https://github.com/PierreEVEN/Rust3D",
-      "start": "",
-      "duration": "",
+      "start": "Jul 18, 2022",
+      "end": "Jan 22, 2024",
       "libs": [],
       "gallery": [
       ]
     },
-
     {
       "title": "Fileshare",
+      "score" : 17,
       "category" : "Misc",
       "languages": [
         "Rust",
@@ -936,8 +954,8 @@
       "description": "",
       "image": "/public/images/portfolio/fileshare/a.png",
       "link": "https://github.com/PierreEVEN/Fileshare",
-      "start": "",
-      "duration": "",
+      "start": "Aug 14, 2023",
+      "end": "Oct 18, 2024",
       "libs": [],
       "gallery": [
         {
@@ -950,6 +968,7 @@
     },
     {
       "title": "Classe de nei/g/e",
+      "score" : 2,
       "category" : "Game",
       "languages": [
         "Blueprint"
@@ -958,8 +977,8 @@
       "description": "",
       "image": "/public/images/portfolio/classe_de_neige/Game.png",
       "link": "https://github.com/PierreEVEN/Fileshare",
-      "start": "",
-      "duration": "4 days",
+      "start": "Mar 24, 2020",
+      "end": "Apr 05, 2020",
       "libs": [],
       "gallery": [
         {
@@ -969,15 +988,13 @@
     },
     {
       "title": "Blender & other creations",
+      "score" : 8,
       "category" : "Game",
       "graphics": "Blender",
       "languages": [],
       "description": "",
       "image": "/public/images/portfolio/blender/Blender(33).png",
       "link": "https://github.com/PierreEVEN/Fileshare",
-      "start": "",
-      "duration": "4 days",
-      "libs": [],
       "gallery": [
         {
           "image": "/public/images/portfolio/blender/Blender(37).png"
@@ -1023,13 +1040,14 @@
     {
       "title": "Pedalboard-Project",
       "category" : "Irl",
+      "score" : 3,
       "languages": [],
       "graphics": "Irl",
       "description": "",
       "image": "",
       "link": "https://github.com/PierreEVEN/Pedalboard-Project",
-      "start": "",
-      "duration": "",
+      "start": "Jun 5, 2024",
+      "end": "Jun 17, 2024",
       "libs": [],
       "gallery": [
       ]
@@ -1037,6 +1055,7 @@
     {
       "title": "Planet Engine",
       "category" : "GameEngine",
+      "score" : 22,
       "languages": [
         "Cpp",
         "Glsl"
@@ -1045,8 +1064,8 @@
       "description": "1:1 solar system project. Procedural planet rendering, from ground to space.",
       "image": "/public/images/portfolio/planet_engine/b.png",
       "link": "https://github.com/PierreEVEN/PlanetEngine",
-      "start": "",
-      "duration": "",
+      "start": "Sep 26, 2022",
+      "end": "Jan 22, 2023",
       "libs": ["assimp", "glfw3", "imgui", "eigen"],
       "gallery": [
         {
@@ -1090,13 +1109,14 @@
     {
       "title": "RC F16",
       "category" : "Irl",
+      "score" : 9,
       "languages": [],
       "graphics": "Irl",
       "description": "",
       "image": "/public/images/portfolio/f16/IMG_20230714_182632.jpg",
       "link": "",
-      "start": "",
-      "duration": "",
+      "start": "May 1, 2023",
+      "end": "Aug 23, 2023",
       "libs": [],
       "gallery": [
         {
@@ -1160,6 +1180,7 @@
     {
       "title": "Urban Tree",
       "category" : ["Misc", "School"],
+      "score" : 8,
       "languages": [
         "Cpp",
         "Glsl"
@@ -1168,8 +1189,8 @@
       "description": "Tree segmentation in a 3D point cloud. Extraction of trees from point clouds generated from video data to estimate foliage volumes.",
       "image":  "/public/images/portfolio/urbantree/software.png",
       "link": "https://github.com/PierreEVEN/UrbanTree",
-      "start": "",
-      "duration": "",
+      "start": "Jan 31, 2023",
+      "end": "May 30, 2023",
       "libs": ["eigen", "imgui", "opencv", "gl3w", "happly", "glfw3"],
       "gallery": [
         {
@@ -1195,6 +1216,7 @@
     {
       "title": "MonteCarlo path-tracer",
       "category" : ["GameEngine", "School"],
+      "score" : 15,
       "languages": [
         "Cpp",
         "glsl"
@@ -1203,8 +1225,8 @@
       "description": "A MonteCarlo path-tracer",
       "image": "/public/images/portfolio/montecarlo/x.png",
       "link": "https://github.com/PierreEVEN/MonteCarlo",
-      "start": "",
-      "duration": "",
+      "start": "Jan 10, 2024",
+      "end": "Jan 22, 2024",
       "libs": [
         "imgui",
         "eigen",
@@ -1228,6 +1250,7 @@
     {
       "title": "Pucman",
       "category" : ["Game", "School"],
+      "score" : 2,
       "languages": [
         "Cpp"
       ],
@@ -1235,8 +1258,8 @@
       "description": "An almost exact reproduction of the original pacman version from 1980 (which was actually called pucman)",
       "image": "/public/images/portfolio/pucman/a.png",
       "link": "https://github.com/PierreEVEN/puckman",
-      "start": "",
-      "duration": "",
+      "start": "Jan 30, 2023",
+      "end": "May 10, 2023",
       "libs": ["sdl2"],
       "gallery": [
         {
@@ -1250,14 +1273,15 @@
     {
       "title": "Waterpixels",
       "category" : ["Misc", "School"],
+      "score" : 6,
       "languages": [
         "Cpp"
       ],
       "description": "Implementation of the waterpixels segmentation algorithm from V.Machairas et al.",
       "image": "/public/images/portfolio/waterpixels/combined_Linfdist.png",
       "link": "https://github.com/PierreEVEN/waterpixels",
-      "start": "",
-      "duration": "",
+      "start": "Dec 21, 2023",
+      "end": "Jan 19, 2024",
       "libs": ["libtim", "glm", "openmp"],
       "gallery": [
         {
@@ -1277,6 +1301,7 @@
     {
       "title": "ProjectT",
       "category" : ["Game"],
+      "score" : 5,
       "languages": [
         "Cpp",
         "Blueprint"
@@ -1285,8 +1310,8 @@
       "description": "Mobile tower defence experimentation",
       "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h49m30s519.png",
       "link": "https://github.com/PierreEVEN/waterpixels",
-      "start": "",
-      "duration": "",
+      "start": "Nov 12, 2019",
+      "end": "Jan 3, 2020",
       "libs": [],
       "gallery": [
         {
@@ -1318,6 +1343,7 @@
     {
       "title": "Procedural landscape",
       "category" : ["Game"],
+      "score" : 10,
       "languages": [
         "Cpp",
         "Blueprint"
@@ -1325,8 +1351,8 @@
       "graphics": "ue4",
       "description": "My first attempt at creating procedural infinite landscapes",
       "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(5).png",
-      "start": "",
-      "duration": "",
+      "start": "Jun 8, 2018",
+      "end": "Jun 23, 2018",
       "libs": [],
       "gallery": [
         {

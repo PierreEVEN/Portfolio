@@ -2,69 +2,88 @@
     <div class="h-separator">
         <div></div>
     </div>
-    <h2>{{title}}</h2>
-    <p>Category : {{category}}</p>
+    <div class="content">
 
-    <h3>Presentation</h3>
-    <div class="project-main">
-        <div class="project-infos">
-            <p>{{description}}</p>
-            <a href="{{link}}">link : {{link}}</a>
-            <table>
-                <tbody>
-                <tr>
-                    <td>
-                        <li>languages</li>
-                    </td>
-                    <td>{{languages}}</td>
-                </tr>
-                <tr>
-                    <td>
-                        <li>libraries</li>
-                    </td>
-                    <td>{{libs}}</td>
-                </tr>
-                <tr>
-                    <td>
-                        <li>Graphics</li>
-                    </td>
-                    <td>{{graphics}}</td>
-                </tr>
-                <tr>
-                    <td>
-                        <li>Start</li>
-                    </td>
-                    <td>{{start}}</td>
-                </tr>
-                <tr>
-                    <td>
-                        <li>Duration</li>
-                    </td>
-                    <td>{{duration}}</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="project-picture">
-            <img src="{{image}}" alt="{{title}}">
-        </div>
-    </div>
-    <div class="project-features">
-        <h3>Key features :</h3>
-        <div class="features">
-            {{#each features}}
-                <h4>{{name}}</h4>
+        <div class="general">
+
+            <div class="title">
+                <h2>{{title}}</h2>
+                <p>{{category}}</p>
+            </div>
+
+            <div class="description">
                 <p>{{description}}</p>
-            {{/each}}
+                <a href="{{link}}">link : {{link}}</a>
+            </div>
         </div>
+        <div class="project-main">
+            <div class="project-infos">
+                <!--
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <li>languages</li>
+                        </td>
+                        <td>{{languages}}</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>libraries</li>
+                        </td>
+                        <td>{{libs}}</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>Graphics</li>
+                        </td>
+                        <td>{{graphics}}</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>Start</li>
+                        </td>
+                        <td>{{start}}</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>Duration</li>
+                        </td>
+                        <td>{{duration}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+                -->
+            </div>
+            <div class="project-picture">
+                <img src="{{image}}" alt="{{title}}">
+            </div>
+        </div>
+        <!--
+    <div class="project-features">
+        {{#if features}}
+            <h3>Key features :</h3>
+            <div class="features">
+                {{#each features}}
+                    <h4>{{name}}</h4>
+                    <p>{{description}}</p>
+                {{/each}}
+            </div>
+        {{/if}}
     </div>
     <div class="project-gallery">
         {{#each gallery}}
             <div class="gallery-item">
                 {{#if image}}<img src="{{image}}" alt="">{{/if}}
-                {{#if youtube}}
+            {{#if youtube}}
                     <iframe width="100%" src="{{youtube}}" allowfullscreen></iframe>{{/if}}
             </div>
         {{/each}}
+    </div>-->
+    </div>
+
+
+    <div class="expand">
+        More ▼
     </div>
 </div>

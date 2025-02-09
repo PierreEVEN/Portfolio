@@ -5,6 +5,46 @@
   align-items: center;
   width: 90%;
 
+  .content {
+    flex-direction: row;
+    width: 100%;
+    @media (orientation: portrait) {
+      flex-direction: column;
+    }
+
+    .general {
+      flex-direction: column;
+      flex-grow: 1;
+      @media (orientation: portrait) {
+        align-items: center;
+      }
+
+      .title {
+        flex-direction: row;
+        align-items: first baseline;
+
+        h2 {
+          margin: 0 20px 0 0;
+          font-weight: bolder;
+        }
+        p {
+          margin: 0;
+          font-weight: 600;
+          color: #656565;
+        }
+      }
+    }
+
+    .description {
+      flex-direction: column;
+    }
+
+    .expand {
+      margin-top: auto;
+      align-self: center;
+      font-size: 25px;
+    }
+  }
 
   h2 {
     font-weight: 500;
@@ -21,42 +61,23 @@
 
   img {
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
   }
 
   .project-main {
-    align-items: flex-start;
-    .project-infos {
-      margin-right: 1em;
-      flex-direction: column;
-      width: 50%;
-      text-align: justify;
-
-      p {
-        margin: 0;
-      }
-
-      table {
-        margin: 2em;
-
-        td {
-          overflow-wrap: break-word;
-        }
-      }
-
-      @media (orientation: portrait) {
-        width: 100%;
-      }
-    }
+    align-items: center;
 
     .project-picture {
-      width: 50%;
+      width: 30vw;
       margin-left: 1em;
+      object-fit: cover;
 
       @media (orientation: portrait) {
         width: 100%;
       }
     }
+
     @media (orientation: portrait) {
       flex-direction: column;
     }
@@ -66,6 +87,7 @@
   .project-features {
     flex-direction: column;
     width: 100%;
+
     .features {
       flex-direction: column;
       width: 100%;
@@ -76,10 +98,11 @@
 
   .project-gallery {
     display: grid;
-    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: .5rem;
     margin-left: auto;
     margin-right: auto;
+
     .gallery-item {
     }
   }
