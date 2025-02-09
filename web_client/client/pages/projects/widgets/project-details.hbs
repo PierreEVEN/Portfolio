@@ -3,20 +3,28 @@
         <div class="description">
             <p>{{description}}</p>
 
-            <div class="url" onclick="window.open('{{link}}', '_blank').focus();">
-                <img alt="tools" src="/public/images/icons/icons8-url-50.webp">
-                <a href="{{link}}" onclick="event.preventDefault();">{{link}}</a>
-            </div>
+            {{#if link}}
+                <div class="url" onclick="window.open('{{link}}', '_blank').focus();">
+                    <img alt="tools" src="/public/images/icons/icons8-url-50.webp">
+                    <a href="{{link}}" onclick="event.preventDefault();">{{link}}</a>
+                </div>
+            {{/if}}
 
             <div class="stats">
-                <div>
-                    <img alt="start" src="/public/images/icons/icons8-calendar-48.webp">
-                    <p>{{start}} - {{end}}</p>
-                </div>
+                {{#if start}}
+                    {{#if end}}
+                        <div>
+                            <img alt="start" src="/public/images/icons/icons8-calendar-48.webp">
+                            <p>{{start}} - {{end}}</p>
+                        </div>
+                    {{/if}}
+                {{/if}}
+    {{#if libs}}
                 <div>
                     <img alt="deps" src="/public/images/icons/icons8-tree-structure-48.webp">
                     <p>{{libs}}</p>
                 </div>
+    {{/if}}
             </div>
         </div>
     </div>

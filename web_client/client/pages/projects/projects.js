@@ -124,44 +124,10 @@ class Projects extends PageBase {
 
     update_display() {
         this.container.innerHTML = '';
-
-        /*
-        this.category_list.innerHTML = '';
-        for (const cat of Array.from(this.data.category.keys()).sort()) {
-            const opt = document.createElement('button');
-            opt.value = cat;
-            opt.innerText = cat;
-            this.category_list.append(opt)
-        }
-
-        this.language_list.innerHTML = '';
-        for (const cat of Array.from(this.data.languages.keys()).sort()) {
-            const opt = document.createElement('button');
-            opt.value = cat;
-            opt.innerText = cat;
-            this.language_list.append(opt)
-        }
-
-        this.lib_list.innerHTML = '';
-        for (const cat of Array.from(this.data.libs.keys()).sort()) {
-            const opt = document.createElement('button');
-            opt.value = cat;
-            opt.innerText = cat;
-            this.lib_list.append(opt)
-        }
-
-        this.graphic_list.innerHTML = '';
-        for (const cat of Array.from(this.data.graphics.keys()).sort()) {
-            const opt = document.createElement('button');
-            opt.value = cat;
-            opt.innerText = cat;
-            this.graphic_list.append(opt)
-        }
-*/
         const project_sorted = this.data.projects.sort(CURRENT_SORT_FN).filter((item) => {
             return CURRENT_FILTER_TEXT === "" ||
-                item.title.includes(CURRENT_FILTER_TEXT) ||
-                (item.description && item.description.includes(CURRENT_FILTER_TEXT))
+                item.title.toLowerCase().includes(CURRENT_FILTER_TEXT.toLowerCase()) ||
+                (item.description && item.description.toLowerCase().includes(CURRENT_FILTER_TEXT.toLowerCase()))
         })
 
         for (const project of project_sorted) {

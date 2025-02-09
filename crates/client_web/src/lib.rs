@@ -78,8 +78,13 @@ impl WebClient {
             .route("/", get(get_index).with_state(ctx.clone()))
             .route("/{*path}", get(get_index_path).with_state(ctx.clone()))
             .route("/favicon.ico", get(Self::get_favicon).with_state(ctx.clone()))
+            .route("/robots.txt", get(Self::get_robots).with_state(ctx.clone()))
             .nest("/public/", StaticFileServer::router(ctx.config.web_client_config.client_path.join("public")))
         )
+    }
+
+    async fn get_robots(State(ctx): State<Arc<AppCtx>>) -> Result<impl IntoResponse, ServerError> {
+        StaticFileServer::serve_file_from_path(ctx.config.web_client_config.client_path.join("public").join("robots.txt")).await
     }
 
     async fn get_favicon(State(ctx): State<Arc<AppCtx>>) -> Result<impl IntoResponse, ServerError> {

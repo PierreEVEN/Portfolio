@@ -10,13 +10,18 @@
         "glsl"
       ],
       "graphics": "Vulkan",
-      "description": "After 3 years of research and experimentation, I've decided to begin the development of a game using my own engine. It is currently in an early stage, but having a goal should help me stay focused on the priority features",
+      "description": "This was the prototype of a 3D game engine using the Vulkan API. The goal is to offer a straightforward but powerful game engine with which you can quickly create a scene in just a few lines of code.",
       "image": "/public/images/portfolio/headless_engine/136795565-0bfdb609-ef96-44de-9579-f8c0b2a79f83.webp",
       "link": "https://github.com/PierreEVEN/HeadlessEngine",
       "start": "3 Oct 2021",
       "end": "21 Feb 2022",
       "libs": [
+        "assimp",
         "glm",
+        "glfw",
+        "stb",
+        "spirv_cross",
+        "vma",
         "glslang",
         "spirv_reflect",
         "imgui",
@@ -37,7 +42,7 @@
         "glsl"
       ],
       "graphics": "Opengl",
-      "description": "A java game engine made for my 2nd year tutored project at the IUT Robert Shuman. Initially planned to be a 2D engine, I finally decided to switch to 3D",
+      "description": "This is a 3d game engine I made for my 2nd year tutored project. Basically I planned to create a 2D game engine, but it grew so quickly I decided to increase my ambitions to 3D. Finally, we were able to use it to finish our serious game project.",
       "image": "/public/images/portfolio/coffee3d/111083391-a25cec80-850d-11eb-915d-396abed79d8d.webp",
       "libs": [
         "lwjgl",
@@ -51,19 +56,28 @@
       "features": [
         {
           "name": "Advanced editor",
-          "description": "Full editor with level edition and asset management"
+          "description": "Full editor with level edition and asset management",
+          "image": "/public/images/portfolio/coffee3d/111083392-a2f58300-850d-11eb-942a-61ed79c7bba6.webp"
         },
         {
           "name": "Post processing",
-          "description": "Basic post process effects like bloom or outlines"
+          "description": "Basic post process effects like bloom or outlines",
+          "image": "/public/images/portfolio/coffee3d/111083394-a38e1980-850d-11eb-9c32-261c7a9ac672.webp"
         },
         {
           "name": "Pathfinding",
-          "description": "Pathfinding using an A* algorithm"
+          "description": "Pathfinding using an A* algorithm",
+          "image": "/public/images/portfolio/coffee3d/111083393-a38e1980-850d-11eb-9c8a-e87aed85a054.webp"
         },
         {
-          "name": "Shadows",
-          "description": "Basic shadows"
+          "name": "Basic lighting",
+          "description": "Day-night cycle with directional light shadows",
+          "image": "/public/images/portfolio/coffee3d/111083391-a25cec80-850d-11eb-915d-396abed79d8d.webp"
+        },
+        {
+          "name": "Connect-4",
+          "description": "A connect-4 game made with Coffee3D",
+          "image": "/public/images/portfolio/coffee3d/111083389-a1c45600-850d-11eb-9c58-bc44b6b861e3.webp"
         }
       ],
       "gallery": [
@@ -78,21 +92,6 @@
         },
         {
           "youtube": "https://www.youtube.com/embed/JiN4Cm1TBZ0"
-        },
-        {
-          "image": "/public/images/portfolio/coffee3d/111083389-a1c45600-850d-11eb-9c58-bc44b6b861e3.webp"
-        },
-        {
-          "image": "/public/images/portfolio/coffee3d/111083391-a25cec80-850d-11eb-915d-396abed79d8d.webp"
-        },
-        {
-          "image": "/public/images/portfolio/coffee3d/111083392-a2f58300-850d-11eb-942a-61ed79c7bba6.webp"
-        },
-        {
-          "image": "/public/images/portfolio/coffee3d/111083393-a38e1980-850d-11eb-9c8a-e87aed85a054.webp"
-        },
-        {
-          "image": "/public/images/portfolio/coffee3d/111083394-a38e1980-850d-11eb-9c32-261c7a9ac672.webp"
         }
       ]
     },
@@ -100,7 +99,7 @@
       "title": "VkEngine",
       "score": 12,
       "category": "GameEngine",
-      "description": "This is my first Vulkan renderer. It has a lot of issues but was a base of experimentation on multiple new technologies",
+      "description": "This was my first Vulkan renderer, and also my second C++ project. It has a lot of issues but hase been a basis for experimenting with Vulkan and modern concepts",
       "languages": [
         "Cpp",
         "glsl"
@@ -121,7 +120,8 @@
         },
         {
           "name": "GLTF model loader",
-          "description": "Custom GLTF import tool"
+          "description": "Custom GLTF import tool",
+          "image": "/public/images/portfolio/vk_engine/100238633-bc5bca80-2f30-11eb-8173-ccb643e4b3c1.webp"
         },
         {
           "name": "Shader hot-reload with embedded editor",
@@ -135,12 +135,6 @@
       "gallery": [
         {
           "youtube": "https://www.youtube.com/embed/NY4k38Y09-o"
-        },
-        {
-          "image": "/public/images/portfolio/vk_engine/100238685-c7aef600-2f30-11eb-9e6f-488f19a76aa7.webp"
-        },
-        {
-          "image": "/public/images/portfolio/vk_engine/100238633-bc5bca80-2f30-11eb-8173-ccb643e4b3c1.webp"
         }
       ]
     },
@@ -148,7 +142,7 @@
       "title": "GLEngine",
       "score": 13,
       "category": "GameEngine",
-      "description": "My first game engine project. And also the first time I used C++ outside Unreal Engine",
+      "description": "My first game engine project. And also the first time I used C++ outside the Unreal Engine",
       "languages": [
         "Cpp",
         "glsl"
@@ -167,24 +161,36 @@
       "end": "Oct 23, 2020",
       "features": [
         {
-          "name": "Simple lighting",
-          "description": "Allow usage of basic lights like spot, point, and directional sources"
-        },
-        {
-          "name": "Physic",
-          "description": "Rigid body collisions using Bullet3D"
-        },
-        {
           "name": "Asset serialisation",
-          "description": "Custom binary asset format"
+          "description": "Custom binary asset format",
+          "image": "/public/images/portfolio/gl_engine/LargeModelLoading.webp"
+        },
+        {
+          "name": "Landscape",
+          "description": "Procedural landscape generation tools",
+          "image": "/public/images/portfolio/gl_engine/ProceduralLandscaleAndFoliage.webp"
+        },
+        {
+          "name": "Dynamic thumbnails",
+          "description": "Automatically generated asset thumbnails",
+          "image": "/public/images/portfolio/gl_engine/Dynamic_thumbnails.webp"
+        },
+        {
+          "name": "Culling",
+          "description": "Frustum culling with dynamic bounding boxes",
+          "image": "/public/images/portfolio/gl_engine/DynamicBoundingBoxes.webp"
         },
         {
           "name": "Profiler",
           "description": "Easy to use CPU profiling tools"
         },
         {
-          "name": "Landscape",
-          "description": "Procedural landscape generation tools"
+          "name": "Simple lighting",
+          "description": "Allow usage of basic lights like spot, point, and directional sources"
+        },
+        {
+          "name": "Physic",
+          "description": "Rigid body collisions using Bullet3D"
         }
       ],
       "gallery": [
@@ -198,19 +204,7 @@
           "youtube": "https://www.youtube.com/embed/yvfDptMhhlw"
         },
         {
-          "image": "/public/images/portfolio/gl_engine/DynamicBoundingBoxes.webp"
-        },
-        {
-          "image": "/public/images/portfolio/gl_engine/Dynamic_thumbnails.webp"
-        },
-        {
-          "image": "/public/images/portfolio/gl_engine/LargeModelLoading.webp"
-        },
-        {
           "image": "/public/images/portfolio/gl_engine/ProceduralLandscape.webp"
-        },
-        {
-          "image": "/public/images/portfolio/gl_engine/ProceduralLandscaleAndFoliage.webp"
         }
       ]
     },
@@ -228,7 +222,7 @@
         "wwise",
         "substancepainter"
       ],
-      "description": "Scuffly is a flight simulator made in solo for my 3rd year 3D game engine course at the University of Strasbourg. This project is a continuation of my previous project : Three Flight Simulator",
+      "description": "Scuffly is a realistic flight simulator made in solo for my 3rd year 3D game engine course at the University of Strasbourg. This project is a continuation of my previous project : Three Flight Simulator.",
       "image": "/public/images/portfolio/scuffly/150693061-23689e9d-7b62-4396-b706-0d510ff6ebde.webp",
       "link": "https://github.com/PierreEVEN/Scuffly",
       "start": "Oct 1, 2021",
@@ -263,6 +257,11 @@
           "name": "Advanced rendering",
           "description": "Modern graphics using unity's new High Definition Rendering Pipeline",
           "image": "/public/images/portfolio/scuffly/150693149-854be278-8db4-42c4-a7c3-c51d4edfd325.webp"
+        },
+        {
+          "name": "BPR materials",
+          "description": "Plane modeled in blender and textured using Substance Painter",
+          "image": "/public/images/portfolio/scuffly/150693144-289e2c3a-cd9c-4d2e-bf8c-f3f35ab840ff.webp"
         },
         {
           "name": "Advanced Audio",
@@ -305,9 +304,6 @@
         },
         {
           "image": "/public/images/portfolio/scuffly/150693126-1291b311-d0dc-488c-b8bf-8783b6b27335.webp"
-        },
-        {
-          "image": "/public/images/portfolio/scuffly/150693144-289e2c3a-cd9c-4d2e-bf8c-f3f35ab840ff.webp"
         }
       ]
     },
@@ -326,24 +322,23 @@
         "wwise"
       ],
       "description": "School project in teams of 4 students : serious game that learn the consequences of the development of hiking in Germany at the end of the 18th century.",
-      "image": "/public/images/portfolio/randonnee_a_dut/Screen6.webp",
+      "image": "/public/images/portfolio/randonnee_a_dut/MainMenu.webp",
       "link": "https://git.unistra.fr/la-barre-oblique/randonneeadut",
       "start": "Mar 26, 2021",
       "end": "Apr 01, 2021",
       "features": [
         {
           "name": "City builder",
-          "description": "Build shops, sell services to walkers, and grow your village"
+          "description": "Build shops, sell services to walkers, and grow your village",
+          "image": "/public/images/portfolio/randonnee_a_dut/Screen5.webp"
         },
         {
           "name": "Environment alteration",
-          "description": "The development of your city will slowly deteriorate the environment, leading to a lack of walkers"
+          "description": "The development of your city will slowly deteriorate the environment, leading to a lack of walkers",
+          "image": "/public/images/portfolio/randonnee_a_dut/Screen6.webp"
         }
       ],
       "gallery": [
-        {
-          "image": "/public/images/portfolio/randonnee_a_dut/MainMenu.webp"
-        },
         {
           "image": "/public/images/portfolio/randonnee_a_dut/Screen1.webp"
         },
@@ -355,12 +350,6 @@
         },
         {
           "image": "/public/images/portfolio/randonnee_a_dut/Screen4.webp"
-        },
-        {
-          "image": "/public/images/portfolio/randonnee_a_dut/Screen5.webp"
-        },
-        {
-          "image": "/public/images/portfolio/randonnee_a_dut/Screen6.webp"
         }
       ]
     },
@@ -386,36 +375,28 @@
       "features": [
         {
           "name": "Procedural landscape",
-          "description": "Simple procedural landscape using a quadtree"
+          "description": "Simple procedural landscape using a quadtree",
+          "image": "/public/images/portfolio/three_flight_simulator/150693744-59b0760e-b12d-46cb-a446-142ed685eafe.webp"
         },
         {
           "name": "Atmospheric scattering",
-          "description": "Atmospheric scattering shaders."
+          "description": "Atmospheric scattering shaders.",
+          "image": "/public/images/portfolio/three_flight_simulator/150693735-efe73c3d-397a-4479-b0ab-e43f0df9069f.webp"
         },
         {
           "name": "Tree impostors",
-          "description": "Spherical impostor that fake 3D trees and allow massive cheap forest generation on web browser"
+          "description": "Spherical impostor that fake 3D trees and allow massive cheap forest generation on web browser",
+          "image": "/public/images/portfolio/three_flight_simulator/110435644-8b546f80-80b3-11eb-95dd-1c5db0257e46.webp"
         },
         {
           "name": "High performance procedural generation",
-          "description": "Procedural multi threaded generation on any browser using workers and C++ code"
+          "description": "Procedural multi threaded generation on any browser using workers and C++ code",
+          "image": "/public/images/portfolio/three_flight_simulator/110435648-8c859c80-80b3-11eb-935e-26e67884091e.webp"
         }
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/three_flight_simulator/110435648-8c859c80-80b3-11eb-935e-26e67884091e.webp"
-        },
-        {
-          "image": "/public/images/portfolio/three_flight_simulator/110435644-8b546f80-80b3-11eb-95dd-1c5db0257e46.webp"
-        },
-        {
           "image": "/public/images/portfolio/three_flight_simulator/110436644-c5724100-80b4-11eb-9b51-f0067786d554.webp"
-        },
-        {
-          "image": "/public/images/portfolio/three_flight_simulator/150693735-efe73c3d-397a-4479-b0ab-e43f0df9069f.webp"
-        },
-        {
-          "image": "/public/images/portfolio/three_flight_simulator/150693744-59b0760e-b12d-46cb-a446-142ed685eafe.webp"
         }
       ]
     },
@@ -428,7 +409,7 @@
       ],
       "graphics": "ue4",
       "libs": [],
-      "description": "My first game, and also my first IT project",
+      "description": "My first game, and also my first IT project. The limitations of the Unreal Engine 4 pushed me to develop my own game engine. Maybe one day I'll finish this project. (maybe :) )",
       "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(86).webp",
       "start": "Jun 28, 2017",
       "end": "Sep 21, 2017",
@@ -562,7 +543,7 @@
         "blender",
         "magicavoxel"
       ],
-      "description": "Context : game jam about 'Fakarava' and 'minimalist'. With a friend, we built a tiny casual glider delivery game ",
+      "description": "Made during a game jam on the words 'Fakarava' and 'minimalist'. With a friend, we built a tiny casual glider delivery game.",
       "image": "/public/images/portfolio/le_postier_de_fakarava/Map.webp",
       "link": "https://github.com/PierreEVEN/LePostierDeFakarava",
       "start": "Jan 15, 2020",
@@ -570,11 +551,13 @@
       "features": [
         {
           "name": "Arcade flight model",
-          "description": "A fun and accessible flight model, but that will require more skills to really improve scores"
+          "description": "A fun and accessible flight model, but that will require more skills to really improve scores",
+          "image": "/public/images/portfolio/le_postier_de_fakarava/100242407-08a90980-2f35-11eb-833f-31f9dd87b0b8.webp"
         },
         {
           "name": "Delivery system",
-          "description": "Take off with your electric powered glider, avoid the clouds to keep your battery charged, delivery some stuffs, then land in the closest airport"
+          "description": "Take off with your electric powered glider, avoid the clouds to keep your battery charged, delivery some stuffs, then land in the closest airport",
+          "image": "/public/images/portfolio/le_postier_de_fakarava/c.webp"
         }
       ],
       "gallery": [
@@ -585,16 +568,10 @@
           "image": "/public/images/portfolio/le_postier_de_fakarava/End.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/100242407-08a90980-2f35-11eb-833f-31f9dd87b0b8.webp"
-        },
-        {
           "image": "/public/images/portfolio/le_postier_de_fakarava/b.webp"
         },
         {
           "image": "/public/images/portfolio/le_postier_de_fakarava/a.webp"
-        },
-        {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/c.webp"
         },
         {
           "image": "/public/images/portfolio/le_postier_de_fakarava/d.webp"
@@ -624,12 +601,6 @@
       "link": "https://github.com/PierreEVEN/LePostierDeFakarava",
       "start": "Jan 17, 2020",
       "end": "Feb 25, 2020",
-      "features": [
-        {
-          "name": "Arcade flight model",
-          "description": "A fun and accessible flight model, but that will require more skills to really improve scores"
-        }
-      ],
       "gallery": [
         {
           "youtube": "https://www.youtube.com/embed/KB5aJOP5bAw"
@@ -903,31 +874,27 @@
         "Cpp"
       ],
       "graphics": "Irl",
-      "description": "",
-      "image": "",
+      "description": "Custom RGB led strip controlled using an arduino uno board. The layout can be modified by bluetooth using an app made in unity",
+      "image": "/public/images/portfolio/led/IMG_20250209_182237797_HDR.webp",
       "link": "https://github.com/PierreEVEN/LedControler",
       "start": "Dec 29, 2024",
       "end": "Jan 2, 2025",
-      "libs": [],
-      "gallery": [
-      ]
-    },
-    {
-      "title": "Rust3D",
-      "category": "GameEngine",
-      "score": 3,
-      "languages": [
-        "Rust",
-        "Hlsl"
+      "libs": [
+        "Arduino"
       ],
-      "graphics": "Vulkan",
-      "description": "",
-      "image": "",
-      "link": "https://github.com/PierreEVEN/Rust3D",
-      "start": "Jul 18, 2022",
-      "end": "Jan 22, 2024",
-      "libs": [],
       "gallery": [
+        {
+          "image": "/public/images/portfolio/led/IMG_20250209_181841430.webp"
+        },
+        {
+          "image": "/public/images/portfolio/led/IMG_20250209_181905518.webp"
+        },
+        {
+          "image": "/public/images/portfolio/led/IMG_20250209_181941162_HDR.webp"
+        },
+        {
+          "image": "/public/images/portfolio/led/Screenshot_20250209-182223.webp"
+        }
       ]
     },
     {
@@ -1031,13 +998,16 @@
       "score": 3,
       "languages": [],
       "graphics": "Irl",
-      "description": "",
-      "image": "",
+      "description": "A custom 3D-printed modular pedalboard",
+      "image": "/public/images/portfolio/pedalboard/image.webp",
       "link": "https://github.com/PierreEVEN/Pedalboard-Project",
       "start": "Jun 5, 2024",
       "end": "Jun 17, 2024",
       "libs": [],
       "gallery": [
+        {
+          "image": "/public/images/portfolio/pedalboard/image1.webp"
+        }
       ]
     },
     {
@@ -1046,10 +1016,31 @@
       "score": 19,
       "languages": [],
       "graphics": "OpenGL",
-      "description": "",
-      "image": "",
+      "description": "Little Volume RayCaster - This software aim to render non-homogenous 3D volume data. I worked on it during my last year project in a team of 5 students",
+      "image": "/public/images/portfolio/lvrc/complementary_clipping_2.webp",
       "libs": [],
+      "features": [
+        {
+          "name": "Clipping",
+          "description": "Use a CSG scene to clip through the volume",
+          "image": "/public/images/portfolio/lvrc/csg_default_opaque_clipping.webp"
+        },
+        {
+          "name": "CSG",
+          "description": "Sphere tracing of CSG",
+          "image": "/public/images/portfolio/lvrc/UI_primitive.webp"
+        }
+      ],
       "gallery": [
+        {
+          "image": "/public/images/portfolio/lvrc/complementary_clipping.webp"
+        },
+        {
+          "image": "/public/images/portfolio/lvrc/complementary_clipping_2.webp"
+        },
+        {
+          "image": "/public/images/portfolio/lvrc/default_opaque_clipping.webp"
+        }
       ]
     },
     {
