@@ -11,7 +11,7 @@
       ],
       "graphics": "Vulkan",
       "description": "After 3 years of research and experimentation, I've decided to begin the development of a game using my own engine. It is currently in an early stage, but having a goal should help me stay focused on the priority features",
-      "image": "/public/images/portfolio/headless_engine/136795565-0bfdb609-ef96-44de-9579-f8c0b2a79f83.png",
+      "image": "/public/images/portfolio/headless_engine/136795565-0bfdb609-ef96-44de-9579-f8c0b2a79f83.webp",
       "link": "https://github.com/PierreEVEN/HeadlessEngine",
       "start": "3 Oct 2021",
       "end": "21 Feb 2022",
@@ -24,7 +24,7 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/headless_engine/136795565-0bfdb609-ef96-44de-9579-f8c0b2a79f83.png"
+          "image": "/public/images/portfolio/headless_engine/136795565-0bfdb609-ef96-44de-9579-f8c0b2a79f83.webp"
         }
       ]
     },
@@ -38,7 +38,7 @@
       ],
       "graphics": "Opengl",
       "description": "A java game engine made for my 2nd year tutored project at the IUT Robert Shuman. Initially planned to be a 2D engine, I finally decided to switch to 3D",
-      "image": "/public/images/portfolio/coffee3d/111083391-a25cec80-850d-11eb-915d-396abed79d8d.png",
+      "image": "/public/images/portfolio/coffee3d/111083391-a25cec80-850d-11eb-915d-396abed79d8d.webp",
       "libs": [
         "lwjgl",
         "joml",
@@ -80,19 +80,19 @@
           "youtube": "https://www.youtube.com/embed/JiN4Cm1TBZ0"
         },
         {
-          "image": "/public/images/portfolio/coffee3d/111083389-a1c45600-850d-11eb-9c58-bc44b6b861e3.png"
+          "image": "/public/images/portfolio/coffee3d/111083389-a1c45600-850d-11eb-9c58-bc44b6b861e3.webp"
         },
         {
-          "image": "/public/images/portfolio/coffee3d/111083391-a25cec80-850d-11eb-915d-396abed79d8d.png"
+          "image": "/public/images/portfolio/coffee3d/111083391-a25cec80-850d-11eb-915d-396abed79d8d.webp"
         },
         {
-          "image": "/public/images/portfolio/coffee3d/111083392-a2f58300-850d-11eb-942a-61ed79c7bba6.png"
+          "image": "/public/images/portfolio/coffee3d/111083392-a2f58300-850d-11eb-942a-61ed79c7bba6.webp"
         },
         {
-          "image": "/public/images/portfolio/coffee3d/111083393-a38e1980-850d-11eb-9c8a-e87aed85a054.png"
+          "image": "/public/images/portfolio/coffee3d/111083393-a38e1980-850d-11eb-9c8a-e87aed85a054.webp"
         },
         {
-          "image": "/public/images/portfolio/coffee3d/111083394-a38e1980-850d-11eb-9c32-261c7a9ac672.png"
+          "image": "/public/images/portfolio/coffee3d/111083394-a38e1980-850d-11eb-9c32-261c7a9ac672.webp"
         }
       ]
     },
@@ -109,7 +109,7 @@
         "assimp"
       ],
       "graphics": "Vulkan",
-      "image": "/public/images/portfolio/vk_engine/100238685-c7aef600-2f30-11eb-9e6f-488f19a76aa7.png",
+      "image": "/public/images/portfolio/vk_engine/100238685-c7aef600-2f30-11eb-9e6f-488f19a76aa7.webp",
       "link": "https://github.com/PierreEVEN/VkEngine",
       "start": "Jun 29, 2020",
       "end": "Jul 5, 2021",
@@ -117,7 +117,7 @@
         {
           "name": "Automatic code reflection",
           "description": "Automatically parse C++ code then generate a meta class before compilation to handle code reflection features (factories, class serialisation...) Very similar to Unreal Engine's implementation.",
-          "image": "/public/images/portfolio/vk_engine/100238498-90d8e000-2f30-11eb-9c5b-99afe821c7c5.png"
+          "image": "/public/images/portfolio/vk_engine/100238498-90d8e000-2f30-11eb-9c5b-99afe821c7c5.webp"
         },
         {
           "name": "GLTF model loader",
@@ -137,10 +137,10 @@
           "youtube": "https://www.youtube.com/embed/NY4k38Y09-o"
         },
         {
-          "image": "/public/images/portfolio/vk_engine/100238685-c7aef600-2f30-11eb-9e6f-488f19a76aa7.png"
+          "image": "/public/images/portfolio/vk_engine/100238685-c7aef600-2f30-11eb-9e6f-488f19a76aa7.webp"
         },
         {
-          "image": "/public/images/portfolio/vk_engine/100238633-bc5bca80-2f30-11eb-8173-ccb643e4b3c1.png"
+          "image": "/public/images/portfolio/vk_engine/100238633-bc5bca80-2f30-11eb-8173-ccb643e4b3c1.webp"
         }
       ]
     },
@@ -154,7 +154,7 @@
         "glsl"
       ],
       "graphics": "Opengl",
-      "image": "/public/images/portfolio/gl_engine/Dynamic_thumbnails.png",
+      "image": "/public/images/portfolio/gl_engine/Dynamic_thumbnails.webp",
       "link": "https://github.com/PierreEVEN/GLEngine",
       "libs": [
         "assimp",
@@ -198,19 +198,19 @@
           "youtube": "https://www.youtube.com/embed/yvfDptMhhlw"
         },
         {
-          "image": "/public/images/portfolio/gl_engine/DynamicBoundingBoxes.png"
+          "image": "/public/images/portfolio/gl_engine/DynamicBoundingBoxes.webp"
         },
         {
-          "image": "/public/images/portfolio/gl_engine/Dynamic_thumbnails.png"
+          "image": "/public/images/portfolio/gl_engine/Dynamic_thumbnails.webp"
         },
         {
-          "image": "/public/images/portfolio/gl_engine/LargeModelLoading.png"
+          "image": "/public/images/portfolio/gl_engine/LargeModelLoading.webp"
         },
         {
-          "image": "/public/images/portfolio/gl_engine/ProceduralLandscape.png"
+          "image": "/public/images/portfolio/gl_engine/ProceduralLandscape.webp"
         },
         {
-          "image": "/public/images/portfolio/gl_engine/ProceduralLandscaleAndFoliage.png"
+          "image": "/public/images/portfolio/gl_engine/ProceduralLandscaleAndFoliage.webp"
         }
       ]
     },
@@ -229,7 +229,7 @@
         "substancepainter"
       ],
       "description": "Scuffly is a flight simulator made in solo for my 3rd year 3D game engine course at the University of Strasbourg. This project is a continuation of my previous project : Three Flight Simulator",
-      "image": "/public/images/portfolio/scuffly/150693061-23689e9d-7b62-4396-b706-0d510ff6ebde.png",
+      "image": "/public/images/portfolio/scuffly/150693061-23689e9d-7b62-4396-b706-0d510ff6ebde.webp",
       "link": "https://github.com/PierreEVEN/Scuffly",
       "start": "Oct 1, 2021",
       "end": "dec 6, 2021",
@@ -237,32 +237,32 @@
         {
           "name": "Aerodynamic simulation",
           "description": "Realtime physic simulation based on drag. (The result is not bad at all, but I should have combined it with lift coefficients to have a better behavior in extreme cases)",
-          "image": "/public/images/portfolio/scuffly/150693120-ada35852-793a-400d-ba56-a7f5a2814689.png"
+          "image": "/public/images/portfolio/scuffly/150693120-ada35852-793a-400d-ba56-a7f5a2814689.webp"
         },
         {
           "name": "Dynamic flight models",
           "description": "The flight model is fully dynamic and customizable. Each physical part of the plane (wings, flaps...) has an independent behavior that make the plane flight when they are combined. The destruction of one of these parts could of course have a more or less important impact on the behaviour of the plane.",
-          "image": "/public/images/portfolio/scuffly/150693127-f57f54d9-4a47-45d4-b245-1788836f4e1c.png"
+          "image": "/public/images/portfolio/scuffly/150693127-f57f54d9-4a47-45d4-b245-1788836f4e1c.webp"
         },
         {
           "name": "Weapons & dogfight",
           "description": "Infra-red missiles with their own physic model and impact prediction system",
-          "image": "/public/images/portfolio/scuffly/150693116-5f427c0e-ef92-4dc9-bdb3-dbff98bf81b9.png"
+          "image": "/public/images/portfolio/scuffly/150693116-5f427c0e-ef92-4dc9-bdb3-dbff98bf81b9.webp"
         },
         {
           "name": "Clickable cockpit",
           "description": "Every interaction can be done from the cockpit",
-          "image": "/public/images/portfolio/scuffly/150693077-8f9bfd4d-3a4f-42d7-b599-c2b05de07a19.png"
+          "image": "/public/images/portfolio/scuffly/150693077-8f9bfd4d-3a4f-42d7-b599-c2b05de07a19.webp"
         },
         {
           "name": "Procedural GPU Landscape",
           "description": "Procedurally generated landscape, with customizable area. The generation is entirely done on the GPU",
-          "image": "/public/images/portfolio/scuffly/150693094-37805712-6958-484c-84c8-41e5d7ed7c98.png"
+          "image": "/public/images/portfolio/scuffly/150693094-37805712-6958-484c-84c8-41e5d7ed7c98.webp"
         },
         {
           "name": "Advanced rendering",
           "description": "Modern graphics using unity's new High Definition Rendering Pipeline",
-          "image": "/public/images/portfolio/scuffly/150693149-854be278-8db4-42c4-a7c3-c51d4edfd325.png"
+          "image": "/public/images/portfolio/scuffly/150693149-854be278-8db4-42c4-a7c3-c51d4edfd325.webp"
         },
         {
           "name": "Advanced Audio",
@@ -295,19 +295,19 @@
           "youtube": "https://www.youtube.com/embed/01ZYdLhIbMQ"
         },
         {
-          "image": "/public/images/portfolio/scuffly/150693050-c1c1ff50-b57b-4e82-bd06-0f5b6e30c1e7.png"
+          "image": "/public/images/portfolio/scuffly/150693050-c1c1ff50-b57b-4e82-bd06-0f5b6e30c1e7.webp"
         },
         {
-          "image": "/public/images/portfolio/scuffly/150693068-20426e66-281c-4f4a-8f16-20d262c5453c.png"
+          "image": "/public/images/portfolio/scuffly/150693068-20426e66-281c-4f4a-8f16-20d262c5453c.webp"
         },
         {
-          "image": "/public/images/portfolio/scuffly/150693106-8bfea4fe-9458-4c35-ab8a-4935b0b7c076.png"
+          "image": "/public/images/portfolio/scuffly/150693106-8bfea4fe-9458-4c35-ab8a-4935b0b7c076.webp"
         },
         {
-          "image": "/public/images/portfolio/scuffly/150693126-1291b311-d0dc-488c-b8bf-8783b6b27335.png"
+          "image": "/public/images/portfolio/scuffly/150693126-1291b311-d0dc-488c-b8bf-8783b6b27335.webp"
         },
         {
-          "image": "/public/images/portfolio/scuffly/150693144-289e2c3a-cd9c-4d2e-bf8c-f3f35ab840ff.png"
+          "image": "/public/images/portfolio/scuffly/150693144-289e2c3a-cd9c-4d2e-bf8c-f3f35ab840ff.webp"
         }
       ]
     },
@@ -326,7 +326,7 @@
         "wwise"
       ],
       "description": "School project in teams of 4 students : serious game that learn the consequences of the development of hiking in Germany at the end of the 18th century.",
-      "image": "/public/images/portfolio/randonnee_a_dut/Screen6.png",
+      "image": "/public/images/portfolio/randonnee_a_dut/Screen6.webp",
       "link": "https://git.unistra.fr/la-barre-oblique/randonneeadut",
       "start": "Mar 26, 2021",
       "end": "Apr 01, 2021",
@@ -342,25 +342,25 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/randonnee_a_dut/MainMenu.png"
+          "image": "/public/images/portfolio/randonnee_a_dut/MainMenu.webp"
         },
         {
-          "image": "/public/images/portfolio/randonnee_a_dut/Screen1.png"
+          "image": "/public/images/portfolio/randonnee_a_dut/Screen1.webp"
         },
         {
-          "image": "/public/images/portfolio/randonnee_a_dut/Screen1.png"
+          "image": "/public/images/portfolio/randonnee_a_dut/Screen1.webp"
         },
         {
-          "image": "/public/images/portfolio/randonnee_a_dut/Screen3.png"
+          "image": "/public/images/portfolio/randonnee_a_dut/Screen3.webp"
         },
         {
-          "image": "/public/images/portfolio/randonnee_a_dut/Screen4.png"
+          "image": "/public/images/portfolio/randonnee_a_dut/Screen4.webp"
         },
         {
-          "image": "/public/images/portfolio/randonnee_a_dut/Screen5.png"
+          "image": "/public/images/portfolio/randonnee_a_dut/Screen5.webp"
         },
         {
-          "image": "/public/images/portfolio/randonnee_a_dut/Screen6.png"
+          "image": "/public/images/portfolio/randonnee_a_dut/Screen6.webp"
         }
       ]
     },
@@ -379,7 +379,7 @@
         "blender"
       ],
       "description": "Solo school project for my graphic programming course at the IUT Robert Shuman. I decided to do some studies about flight simulation. We had to use Three.js, so I made a flight simulator running on web browser",
-      "image": "/public/images/portfolio/three_flight_simulator/110435648-8c859c80-80b3-11eb-935e-26e67884091e.png",
+      "image": "/public/images/portfolio/three_flight_simulator/110435648-8c859c80-80b3-11eb-935e-26e67884091e.webp",
       "link": "https://github.com/PierreEVEN/ThreeFlightSimulator",
       "start": "Jan 28, 2021",
       "end": "Jun 20, 2021",
@@ -403,19 +403,19 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/three_flight_simulator/110435648-8c859c80-80b3-11eb-935e-26e67884091e.png"
+          "image": "/public/images/portfolio/three_flight_simulator/110435648-8c859c80-80b3-11eb-935e-26e67884091e.webp"
         },
         {
-          "image": "/public/images/portfolio/three_flight_simulator/110435644-8b546f80-80b3-11eb-95dd-1c5db0257e46.png"
+          "image": "/public/images/portfolio/three_flight_simulator/110435644-8b546f80-80b3-11eb-95dd-1c5db0257e46.webp"
         },
         {
-          "image": "/public/images/portfolio/three_flight_simulator/110436644-c5724100-80b4-11eb-9b51-f0067786d554.png"
+          "image": "/public/images/portfolio/three_flight_simulator/110436644-c5724100-80b4-11eb-9b51-f0067786d554.webp"
         },
         {
-          "image": "/public/images/portfolio/three_flight_simulator/150693735-efe73c3d-397a-4479-b0ab-e43f0df9069f.png"
+          "image": "/public/images/portfolio/three_flight_simulator/150693735-efe73c3d-397a-4479-b0ab-e43f0df9069f.webp"
         },
         {
-          "image": "/public/images/portfolio/three_flight_simulator/150693744-59b0760e-b12d-46cb-a446-142ed685eafe.png"
+          "image": "/public/images/portfolio/three_flight_simulator/150693744-59b0760e-b12d-46cb-a446-142ed685eafe.webp"
         }
       ]
     },
@@ -429,124 +429,124 @@
       "graphics": "ue4",
       "libs": [],
       "description": "My first game, and also my first IT project",
-      "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(86).png",
+      "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(86).webp",
       "start": "Jun 28, 2017",
       "end": "Sep 21, 2017",
       "features": [],
       "gallery": [
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(1).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(1).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(6).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(6).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(7).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(7).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(16).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(16).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(25).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(25).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(26).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(26).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(29).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(29).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(45).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(45).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(64).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(64).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(67).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(67).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(69).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(69).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(73).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(73).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(83).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(83).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(94).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(94).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(100).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(100).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(101).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(101).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(107).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(107).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(110).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(110).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(116).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(116).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(118).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(118).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(127).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(127).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(139).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(139).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(145).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(145).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(153).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(153).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(164).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(164).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(166).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(166).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(179).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(179).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(182).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(182).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(186).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(186).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(194).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(194).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(201).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(201).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(207).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(207).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(211).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(211).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(217).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(217).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(220).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(220).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(227).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(227).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(236).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(236).webp"
         },
         {
-          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(237).png"
+          "image": "/public/images/portfolio/beyond_galaxy/BeyondGalaxy(237).webp"
         }
       ]
     },
@@ -563,7 +563,7 @@
         "magicavoxel"
       ],
       "description": "Context : game jam about 'Fakarava' and 'minimalist'. With a friend, we built a tiny casual glider delivery game ",
-      "image": "/public/images/portfolio/le_postier_de_fakarava/Map.png",
+      "image": "/public/images/portfolio/le_postier_de_fakarava/Map.webp",
       "link": "https://github.com/PierreEVEN/LePostierDeFakarava",
       "start": "Jan 15, 2020",
       "end": "Jan 17, 2020",
@@ -582,28 +582,28 @@
           "youtube": "https://www.youtube.com/embed/27ZOmsAE9dw"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/End.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava/End.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/100242407-08a90980-2f35-11eb-833f-31f9dd87b0b8.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava/100242407-08a90980-2f35-11eb-833f-31f9dd87b0b8.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/b.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava/b.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/a.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava/a.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/c.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava/c.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/d.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava/d.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/e.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava/e.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava/f.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava/f.webp"
         }
       ]
     },
@@ -620,7 +620,7 @@
         "magicavoxel"
       ],
       "description": "After the game jam, I decided to continue the project on my side and try some more advanced experimentation for fun",
-      "image": "/public/images/portfolio/le_postier_de_fakarava_2/100242034-a0f2be80-2f34-11eb-97ed-c2bc40bafd93.png",
+      "image": "/public/images/portfolio/le_postier_de_fakarava_2/100242034-a0f2be80-2f34-11eb-97ed-c2bc40bafd93.webp",
       "link": "https://github.com/PierreEVEN/LePostierDeFakarava",
       "start": "Jan 17, 2020",
       "end": "Feb 25, 2020",
@@ -641,28 +641,28 @@
           "youtube": "https://www.youtube.com/embed/xz3EQgNm2sE"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241731-4f4a3400-2f34-11eb-86ae-b17349975be2.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241731-4f4a3400-2f34-11eb-86ae-b17349975be2.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241756-58d39c00-2f34-11eb-94f9-b029070f3e49.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241756-58d39c00-2f34-11eb-94f9-b029070f3e49.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241773-5e30e680-2f34-11eb-9a6a-87d0c2e003e2.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241773-5e30e680-2f34-11eb-9a6a-87d0c2e003e2.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241859-73a61080-2f34-11eb-930f-f6efcb1686e1.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241859-73a61080-2f34-11eb-930f-f6efcb1686e1.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241981-933d3900-2f34-11eb-9319-543a5aa0ac52.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100241981-933d3900-2f34-11eb-9319-543a5aa0ac52.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100242016-9b957400-2f34-11eb-8b08-70fe2457f4cb.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100242016-9b957400-2f34-11eb-8b08-70fe2457f4cb.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100242042-a51edc00-2f34-11eb-9ff4-55aae4d2506c.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100242042-a51edc00-2f34-11eb-9ff4-55aae4d2506c.webp"
         },
         {
-          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100242044-a5b77280-2f34-11eb-85d6-6590860883c1.png"
+          "image": "/public/images/portfolio/le_postier_de_fakarava_2/100242044-a5b77280-2f34-11eb-85d6-6590860883c1.webp"
         }
       ]
     },
@@ -679,7 +679,7 @@
         "blender"
       ],
       "description": "A massive multiplayer open world by iolaCorp. I worked on gameplay features there between 2017 and 2019",
-      "image": "/public/images/portfolio/qanga/mpc-hc64_ei7dJY3Nq2_60255bceda662.jpg",
+      "image": "/public/images/portfolio/qanga/mpc-hc64_ei7dJY3Nq2_60255bceda662.webp",
       "link": "https://qanga.iolacorp.com",
       "start": "Sep 20, 2017",
       "end": "Oct 1, 2019",
@@ -708,49 +708,49 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/qanga/Qanga(61).png"
+          "image": "/public/images/portfolio/qanga/Qanga(61).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(48).png"
+          "image": "/public/images/portfolio/qanga/Qanga(48).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(7).png"
+          "image": "/public/images/portfolio/qanga/Qanga(7).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(4).png"
+          "image": "/public/images/portfolio/qanga/Qanga(4).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(9).png"
+          "image": "/public/images/portfolio/qanga/Qanga(9).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(36).png"
+          "image": "/public/images/portfolio/qanga/Qanga(36).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(48).png"
+          "image": "/public/images/portfolio/qanga/Qanga(48).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(8).png"
+          "image": "/public/images/portfolio/qanga/Qanga(8).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(5).png"
+          "image": "/public/images/portfolio/qanga/Qanga(5).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(11).png"
+          "image": "/public/images/portfolio/qanga/Qanga(11).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(31).png"
+          "image": "/public/images/portfolio/qanga/Qanga(31).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(46).png"
+          "image": "/public/images/portfolio/qanga/Qanga(46).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(40).png"
+          "image": "/public/images/portfolio/qanga/Qanga(40).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(34).png"
+          "image": "/public/images/portfolio/qanga/Qanga(34).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(41).png"
+          "image": "/public/images/portfolio/qanga/Qanga(41).webp"
         }
       ]
     },
@@ -763,7 +763,7 @@
       ],
       "graphics": "ue4",
       "description": "Editor tool for the Unreal Engine 4 that add a prefab system optimized for open worlds (made for Qanga). A prefabs is a container of children objects that can be 3D models, lights, other prefabs, or anything else.",
-      "image": "/public/images/portfolio/prefab/PrefabEditor(2).png",
+      "image": "/public/images/portfolio/prefab/PrefabEditor(2).webp",
       "start": "Jan 1, 2020",
       "end": "May 1, 2020",
       "libs": [
@@ -793,10 +793,10 @@
           "youtube": "https://www.youtube.com/embed/1-_JRkDrqDI"
         },
         {
-          "image": "/public/images/portfolio/prefab/PrefabEditor(7).png"
+          "image": "/public/images/portfolio/prefab/PrefabEditor(7).webp"
         },
         {
-          "image": "/public/images/portfolio/prefab/PrefabEditor(8).png"
+          "image": "/public/images/portfolio/prefab/PrefabEditor(8).webp"
         }
       ]
     },
@@ -810,7 +810,7 @@
       ],
       "graphics": "Opengl",
       "description": "Someone needed a tool that allow recombining image channel in few clicks, so I made it",
-      "image": "/public/images/portfolio/super_packer/113629508-ca4ff380-9666-11eb-9d17-6a4a56f97d09.png",
+      "image": "/public/images/portfolio/super_packer/113629508-ca4ff380-9666-11eb-9d17-6a4a56f97d09.webp",
       "link": "https://github.com/PierreEVEN/SuperPacker",
       "start": "Mar 25, 2021",
       "end": "Mar 26, 2021",
@@ -821,7 +821,7 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/super_packer/icon.png"
+          "image": "/public/images/portfolio/super_packer/icon.webp"
         },
         {
           "image": "/public/images/portfolio/super_packer/image.webp"
@@ -850,7 +850,7 @@
       ],
       "graphics": "Opengl",
       "description": "A linear structure extraction research project where I worked on the implementation of the user interface. Initially under QT (whose licence was no longer compatible with the project), I created an UI library on the top of ImGui that reproduce the behaviour of QT's widgets to permit a quick implementation",
-      "image": "/public/images/portfolio/ilsd/ccx02.png",
+      "image": "/public/images/portfolio/ilsd/ccx02.webp",
       "link": "https://github.com/evenp/ILSD",
       "start": "Jun 15, 2020",
       "end": "Aug 28, 2020",
@@ -861,7 +861,7 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/ilsd/ccx02.png"
+          "image": "/public/images/portfolio/ilsd/ccx02.webp"
         }
       ]
     },
@@ -875,7 +875,7 @@
       ],
       "graphics": "Vulkan",
       "description": "",
-      "image": "/public/images/portfolio/taranis/shadows.jpg",
+      "image": "/public/images/portfolio/taranis/shadows.webp",
       "link": "https://github.com/PierreEVEN/Taranis",
       "start": "Oct 29, 2024",
       "end": "Feb 09, 2025",
@@ -888,10 +888,10 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/taranis/screenshot.png"
+          "image": "/public/images/portfolio/taranis/screenshot.webp"
         },
         {
-          "image": "/public/images/portfolio/taranis/planet.jpg"
+          "image": "/public/images/portfolio/taranis/planet.webp"
         }
       ]
     },
@@ -940,17 +940,17 @@
       ],
       "graphics": "web",
       "description": "",
-      "image": "/public/images/portfolio/fileshare/a.png",
+      "image": "/public/images/portfolio/fileshare/a.webp",
       "link": "https://github.com/PierreEVEN/Fileshare",
       "start": "Aug 14, 2023",
       "end": "Oct 18, 2024",
       "libs": [],
       "gallery": [
         {
-          "image": "/public/images/portfolio/fileshare/b.png"
+          "image": "/public/images/portfolio/fileshare/b.webp"
         },
         {
-          "image": "/public/images/portfolio/fileshare/c.png"
+          "image": "/public/images/portfolio/fileshare/c.webp"
         }
       ]
     },
@@ -963,14 +963,14 @@
       ],
       "graphics": "ue4",
       "description": "",
-      "image": "/public/images/portfolio/classe_de_neige/Game.png",
+      "image": "/public/images/portfolio/classe_de_neige/Game.webp",
       "link": "https://github.com/PierreEVEN/Fileshare",
       "start": "Mar 24, 2020",
       "end": "Apr 05, 2020",
       "libs": [],
       "gallery": [
         {
-          "image": "/public/images/portfolio/classe_de_neige/game2.png"
+          "image": "/public/images/portfolio/classe_de_neige/game2.webp"
         }
       ]
     },
@@ -981,47 +981,47 @@
       "graphics": "Blender",
       "languages": [],
       "description": "",
-      "image": "/public/images/portfolio/blender/Blender(33).png",
+      "image": "/public/images/portfolio/blender/Blender(33).webp",
       "link": "https://github.com/PierreEVEN/Fileshare",
       "gallery": [
         {
-          "image": "/public/images/portfolio/blender/Blender(37).png"
+          "image": "/public/images/portfolio/blender/Blender(37).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(35).png"
+          "image": "/public/images/portfolio/blender/Blender(35).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(34).png"
+          "image": "/public/images/portfolio/blender/Blender(34).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(32).png"
+          "image": "/public/images/portfolio/blender/Blender(32).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(28).png"
+          "image": "/public/images/portfolio/blender/Blender(28).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(26).png"
+          "image": "/public/images/portfolio/blender/Blender(26).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(24).png"
+          "image": "/public/images/portfolio/blender/Blender(24).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(18).png"
+          "image": "/public/images/portfolio/blender/Blender(18).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(17).png"
+          "image": "/public/images/portfolio/blender/Blender(17).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(10).png"
+          "image": "/public/images/portfolio/blender/Blender(10).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(7).png"
+          "image": "/public/images/portfolio/blender/Blender(7).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(4).jpg"
+          "image": "/public/images/portfolio/blender/Blender(4).webp"
         },
         {
-          "image": "/public/images/portfolio/blender/Blender(1).jpg"
+          "image": "/public/images/portfolio/blender/Blender(1).webp"
         }
       ]
     },
@@ -1041,6 +1041,18 @@
       ]
     },
     {
+      "title": "LVRC",
+      "category": "Research project",
+      "score": 19,
+      "languages": [],
+      "graphics": "OpenGL",
+      "description": "",
+      "image": "",
+      "libs": [],
+      "gallery": [
+      ]
+    },
+    {
       "title": "Planet Engine",
       "category": "GameEngine",
       "score": 22,
@@ -1050,7 +1062,7 @@
       ],
       "graphics": "Opengl",
       "description": "1:1 solar system project. Procedural planet rendering, from ground to space.",
-      "image": "/public/images/portfolio/planet_engine/b.png",
+      "image": "/public/images/portfolio/planet_engine/b.webp",
       "link": "https://github.com/PierreEVEN/PlanetEngine",
       "start": "Sep 26, 2022",
       "end": "Jan 22, 2023",
@@ -1068,34 +1080,34 @@
           "image": "/public/images/portfolio/planet_engine/2.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/3.png"
+          "image": "/public/images/portfolio/planet_engine/3.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/a.png"
+          "image": "/public/images/portfolio/planet_engine/a.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/c.png"
+          "image": "/public/images/portfolio/planet_engine/c.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/d.png"
+          "image": "/public/images/portfolio/planet_engine/d.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/e.png"
+          "image": "/public/images/portfolio/planet_engine/e.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/f.png"
+          "image": "/public/images/portfolio/planet_engine/f.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/g.png"
+          "image": "/public/images/portfolio/planet_engine/g.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/h.png"
+          "image": "/public/images/portfolio/planet_engine/h.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/i.png"
+          "image": "/public/images/portfolio/planet_engine/i.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/bloom.png"
+          "image": "/public/images/portfolio/planet_engine/bloom.webp"
         }
       ]
     },
@@ -1106,65 +1118,65 @@
       "languages": [],
       "graphics": "Irl",
       "description": "",
-      "image": "/public/images/portfolio/f16/IMG_20230714_182632.jpg",
+      "image": "/public/images/portfolio/f16/IMG_20230714_182632.webp",
       "link": "",
       "start": "May 1, 2023",
       "end": "Aug 23, 2023",
       "libs": [],
       "gallery": [
         {
-          "image": "/public/images/portfolio/f16/IMG_20230612_140634.jpg"
+          "image": "/public/images/portfolio/f16/IMG_20230612_140634.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG_20230627_185026.jpg"
+          "image": "/public/images/portfolio/f16/IMG_20230627_185026.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG_20230627_185036.jpg"
+          "image": "/public/images/portfolio/f16/IMG_20230627_185036.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG_20230627_185044.jpg"
+          "image": "/public/images/portfolio/f16/IMG_20230627_185044.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG_20230708_214816.jpg"
+          "image": "/public/images/portfolio/f16/IMG_20230708_214816.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG_20230708_214821.jpg"
+          "image": "/public/images/portfolio/f16/IMG_20230708_214821.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG_20230709_135631.jpg"
+          "image": "/public/images/portfolio/f16/IMG_20230709_135631.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG_20230730_192552.jpg"
+          "image": "/public/images/portfolio/f16/IMG_20230730_192552.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230611-WA0018.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230611-WA0018.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230612-WA0006.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230612-WA0006.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230612-WA0027.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230612-WA0027.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230623-WA0012.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230623-WA0012.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230623-WA0019.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230623-WA0019.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230624-WA0005.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230624-WA0005.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230625-WA0013.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230625-WA0013.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230626-WA0004.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230626-WA0004.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230630-WA0005.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230630-WA0005.webp"
         },
         {
-          "image": "/public/images/portfolio/f16/IMG-20230708-WA0009.jpg"
+          "image": "/public/images/portfolio/f16/IMG-20230708-WA0009.webp"
         }
       ]
     },
@@ -1181,7 +1193,7 @@
       ],
       "graphics": "Opengl",
       "description": "Tree segmentation in a 3D point cloud. Extraction of trees from point clouds generated from video data to estimate foliage volumes.",
-      "image": "/public/images/portfolio/urbantree/software.png",
+      "image": "/public/images/portfolio/urbantree/software.webp",
       "link": "https://github.com/PierreEVEN/UrbanTree",
       "start": "Jan 31, 2023",
       "end": "May 30, 2023",
@@ -1195,22 +1207,22 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/urbantree/2-base.png"
+          "image": "/public/images/portfolio/urbantree/2-base.webp"
         },
         {
-          "image": "/public/images/portfolio/urbantree/2-final.png"
+          "image": "/public/images/portfolio/urbantree/2-final.webp"
         },
         {
-          "image": "/public/images/portfolio/urbantree/global-view-blank.png"
+          "image": "/public/images/portfolio/urbantree/global-view-blank.webp"
         },
         {
-          "image": "/public/images/portfolio/urbantree/pathfinding.png"
+          "image": "/public/images/portfolio/urbantree/pathfinding.webp"
         },
         {
-          "image": "/public/images/portfolio/urbantree/results.png"
+          "image": "/public/images/portfolio/urbantree/results.webp"
         },
         {
-          "image": "/public/images/portfolio/urbantree/trunck-error.png"
+          "image": "/public/images/portfolio/urbantree/trunck-error.webp"
         }
       ]
     },
@@ -1227,7 +1239,7 @@
       ],
       "graphics": "Opengl",
       "description": "A MonteCarlo path-tracer",
-      "image": "/public/images/portfolio/montecarlo/x.png",
+      "image": "/public/images/portfolio/montecarlo/x.webp",
       "link": "https://github.com/PierreEVEN/MonteCarlo",
       "start": "Jan 10, 2024",
       "end": "Jan 22, 2024",
@@ -1238,16 +1250,16 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/montecarlo/n.png"
+          "image": "/public/images/portfolio/montecarlo/n.webp"
         },
         {
-          "image": "/public/images/portfolio/montecarlo/mn.png"
+          "image": "/public/images/portfolio/montecarlo/mn.webp"
         },
         {
-          "image": "/public/images/portfolio/montecarlo/demo.png"
+          "image": "/public/images/portfolio/montecarlo/demo.webp"
         },
         {
-          "image": "/public/images/portfolio/montecarlo/alpha.png"
+          "image": "/public/images/portfolio/montecarlo/alpha.webp"
         }
       ]
     },
@@ -1263,7 +1275,7 @@
       ],
       "graphics": "sdl2",
       "description": "An almost exact reproduction of the original pacman version from 1980 (which was actually called pucman)",
-      "image": "/public/images/portfolio/pucman/a.png",
+      "image": "/public/images/portfolio/pucman/a.webp",
       "link": "https://github.com/PierreEVEN/puckman",
       "start": "Jan 30, 2023",
       "end": "May 10, 2023",
@@ -1272,10 +1284,10 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/pucman/b.png"
+          "image": "/public/images/portfolio/pucman/b.webp"
         },
         {
-          "image": "/public/images/portfolio/pucman/c.png"
+          "image": "/public/images/portfolio/pucman/c.webp"
         }
       ]
     },
@@ -1290,7 +1302,7 @@
         "Cpp"
       ],
       "description": "Implementation of the waterpixels segmentation algorithm from V.Machairas et al.",
-      "image": "/public/images/portfolio/waterpixels/combined_Linfdist.png",
+      "image": "/public/images/portfolio/waterpixels/combined_Linfdist.webp",
       "link": "https://github.com/PierreEVEN/waterpixels",
       "start": "Dec 21, 2023",
       "end": "Jan 19, 2024",
@@ -1301,16 +1313,16 @@
       ],
       "gallery": [
         {
-          "image": "/public/images/portfolio/waterpixels/combined_spacing_0.6.png"
+          "image": "/public/images/portfolio/waterpixels/combined_spacing_0.6.webp"
         },
         {
-          "image": "/public/images/portfolio/waterpixels/combinedHexL2.png"
+          "image": "/public/images/portfolio/waterpixels/combinedHexL2.webp"
         },
         {
-          "image": "/public/images/portfolio/waterpixels/spatialRegularizationGradient_rand.png"
+          "image": "/public/images/portfolio/waterpixels/spatialRegularizationGradient_rand.webp"
         },
         {
-          "image": "/public/images/portfolio/waterpixels/watershedSources_rand.png"
+          "image": "/public/images/portfolio/waterpixels/watershedSources_rand.webp"
         }
       ]
     },
@@ -1326,35 +1338,35 @@
       ],
       "graphics": "ue4",
       "description": "Mobile tower defence experimentation",
-      "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h49m30s519.png",
+      "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h49m30s519.webp",
       "link": "https://github.com/PierreEVEN/waterpixels",
       "start": "Nov 12, 2019",
       "end": "Jan 3, 2020",
       "libs": [],
       "gallery": [
         {
-          "image": "/public/images/portfolio/projet_t/ProjetT(1).png"
+          "image": "/public/images/portfolio/projet_t/ProjetT(1).webp"
         },
         {
-          "image": "/public/images/portfolio/projet_t/ProjetT(2).png"
+          "image": "/public/images/portfolio/projet_t/ProjetT(2).webp"
         },
         {
-          "image": "/public/images/portfolio/projet_t/ProjetT(3).png"
+          "image": "/public/images/portfolio/projet_t/ProjetT(3).webp"
         },
         {
-          "image": "/public/images/portfolio/projet_t/ProjetT(4).png"
+          "image": "/public/images/portfolio/projet_t/ProjetT(4).webp"
         },
         {
-          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h48m04s550.png"
+          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h48m04s550.webp"
         },
         {
-          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h50m27s365.png"
+          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h50m27s365.webp"
         },
         {
-          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h50m45s156.png"
+          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h50m45s156.webp"
         },
         {
-          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h51m01s939.png"
+          "image": "/public/images/portfolio/projet_t/vlcsnap-2025-02-08-13h51m01s939.webp"
         }
       ]
     },
@@ -1370,40 +1382,40 @@
       ],
       "graphics": "ue4",
       "description": "My first attempt at creating procedural infinite landscapes",
-      "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(5).png",
+      "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(5).webp",
       "start": "Jun 8, 2018",
       "end": "Jun 23, 2018",
       "libs": [],
       "gallery": [
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(6).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(6).webp"
         },
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(8).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(8).webp"
         },
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(7).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(7).webp"
         },
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(10).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(10).webp"
         },
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(11).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(11).webp"
         },
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(12).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(12).webp"
         },
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(13).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(13).webp"
         },
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(15).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(15).webp"
         },
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(16).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(16).webp"
         },
         {
-          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(19).png"
+          "image": "/public/images/portfolio/procedural_landscape/ProceduralLandscape(19).webp"
         }
       ]
     }
