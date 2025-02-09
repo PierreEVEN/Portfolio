@@ -2,8 +2,8 @@
   "projects": [
     {
       "title": "Headless Engine",
-      "score" : 11,
-      "category" : "GameEngine",
+      "score": 11,
+      "category": "GameEngine",
       "languages": [
         "Cpp",
         "hlsl",
@@ -30,8 +30,8 @@
     },
     {
       "title": "Coffee 3D",
-      "category" : "GameEngine",
-      "score" : 16,
+      "category": "GameEngine",
+      "score": 16,
       "languages": [
         "Java",
         "glsl"
@@ -98,8 +98,8 @@
     },
     {
       "title": "VkEngine",
-      "score" : 12,
-      "category" : "GameEngine",
+      "score": 12,
+      "category": "GameEngine",
       "description": "This is my first Vulkan renderer. It has a lot of issues but was a base of experimentation on multiple new technologies",
       "languages": [
         "Cpp",
@@ -146,8 +146,8 @@
     },
     {
       "title": "GLEngine",
-      "score" : 13,
-      "category" : "GameEngine",
+      "score": 13,
+      "category": "GameEngine",
       "description": "My first game engine project. And also the first time I used C++ outside Unreal Engine",
       "languages": [
         "Cpp",
@@ -216,8 +216,8 @@
     },
     {
       "title": "Scuffly",
-      "category" : "Game",
-      "score" : 25,
+      "category": "Game",
+      "score": 25,
       "languages": [
         "Csharp",
         "hlsl"
@@ -236,15 +236,33 @@
       "features": [
         {
           "name": "Aerodynamic simulation",
-          "description": "Realtime physic simulation based on drag. (The result is not bad at all, but I should have combined it with lift coefficients to have a better behavior in extreme cases)"
+          "description": "Realtime physic simulation based on drag. (The result is not bad at all, but I should have combined it with lift coefficients to have a better behavior in extreme cases)",
+          "image": "/public/images/portfolio/scuffly/150693120-ada35852-793a-400d-ba56-a7f5a2814689.png"
         },
         {
           "name": "Dynamic flight models",
-          "description": "The flight model is fully dynamic and customizable. Each physical part of the plane (wings, flaps...) has an independent behavior that make the plane flight when they are combined. The destruction of one of these parts could of course have a more or less important impact on the behaviour of the plane."
+          "description": "The flight model is fully dynamic and customizable. Each physical part of the plane (wings, flaps...) has an independent behavior that make the plane flight when they are combined. The destruction of one of these parts could of course have a more or less important impact on the behaviour of the plane.",
+          "image": "/public/images/portfolio/scuffly/150693127-f57f54d9-4a47-45d4-b245-1788836f4e1c.png"
         },
         {
           "name": "Weapons & dogfight",
-          "description": "Infra-red missiles with their own physic model and impact prediction system"
+          "description": "Infra-red missiles with their own physic model and impact prediction system",
+          "image": "/public/images/portfolio/scuffly/150693116-5f427c0e-ef92-4dc9-bdb3-dbff98bf81b9.png"
+        },
+        {
+          "name": "Clickable cockpit",
+          "description": "Every interaction can be done from the cockpit",
+          "image": "/public/images/portfolio/scuffly/150693077-8f9bfd4d-3a4f-42d7-b599-c2b05de07a19.png"
+        },
+        {
+          "name": "Procedural GPU Landscape",
+          "description": "Procedurally generated landscape, with customizable area. The generation is entirely done on the GPU",
+          "image": "/public/images/portfolio/scuffly/150693094-37805712-6958-484c-84c8-41e5d7ed7c98.png"
+        },
+        {
+          "name": "Advanced rendering",
+          "description": "Modern graphics using unity's new High Definition Rendering Pipeline",
+          "image": "/public/images/portfolio/scuffly/150693149-854be278-8db4-42c4-a7c3-c51d4edfd325.png"
         },
         {
           "name": "Advanced Audio",
@@ -255,24 +273,12 @@
           "description": "AI controlled planes for PVE dogfights (they are really dangerous)"
         },
         {
-          "name": "Clickable cockpit",
-          "description": "Every interaction can be done from the cockpit"
-        },
-        {
-          "name": "Procedural GPU Landscape",
-          "description": "Procedurally generated landscape, with customizable area. The generation is entirely done on the GPU"
-        },
-        {
           "name": "Editor tools",
           "description": "In editor development tools that simplify and speeds up artistic tasks. The procedural landscape is compatible with editor viewport and support hot reloads"
         },
         {
           "name": "Custom UI tools",
           "description": "Easy to use tools that generate dial, scales and much more"
-        },
-        {
-          "name": "Advanced rendering",
-          "description": "Modern graphics using unity's new High Definition Rendering Pipeline"
         }
       ],
       "gallery": [
@@ -295,38 +301,20 @@
           "image": "/public/images/portfolio/scuffly/150693068-20426e66-281c-4f4a-8f16-20d262c5453c.png"
         },
         {
-          "image": "/public/images/portfolio/scuffly/150693077-8f9bfd4d-3a4f-42d7-b599-c2b05de07a19.png"
-        },
-        {
-          "image": "/public/images/portfolio/scuffly/150693094-37805712-6958-484c-84c8-41e5d7ed7c98.png"
-        },
-        {
           "image": "/public/images/portfolio/scuffly/150693106-8bfea4fe-9458-4c35-ab8a-4935b0b7c076.png"
-        },
-        {
-          "image": "/public/images/portfolio/scuffly/150693116-5f427c0e-ef92-4dc9-bdb3-dbff98bf81b9.png"
-        },
-        {
-          "image": "/public/images/portfolio/scuffly/150693120-ada35852-793a-400d-ba56-a7f5a2814689.png"
         },
         {
           "image": "/public/images/portfolio/scuffly/150693126-1291b311-d0dc-488c-b8bf-8783b6b27335.png"
         },
         {
-          "image": "/public/images/portfolio/scuffly/150693127-f57f54d9-4a47-45d4-b245-1788836f4e1c.png"
-        },
-        {
           "image": "/public/images/portfolio/scuffly/150693144-289e2c3a-cd9c-4d2e-bf8c-f3f35ab840ff.png"
-        },
-        {
-          "image": "/public/images/portfolio/scuffly/150693149-854be278-8db4-42c4-a7c3-c51d4edfd325.png"
         }
       ]
     },
     {
       "title": "Randonnée à Dut'",
-      "category" : "Game",
-      "score" : 8,
+      "category": "Game",
+      "score": 8,
       "languages": [
         "Cpp",
         "Blueprint"
@@ -378,8 +366,8 @@
     },
     {
       "title": "Three Flight Simulator",
-      "category" : "Game",
-      "score" : 17,
+      "category": "Game",
+      "score": 17,
       "languages": [
         "js",
         "glsl"
@@ -433,8 +421,8 @@
     },
     {
       "title": "Beyond Galaxy",
-      "category" : "Game",
-      "score" : 9,
+      "category": "Game",
+      "score": 9,
       "languages": [
         "Blueprint"
       ],
@@ -564,8 +552,8 @@
     },
     {
       "title": "Le postier de Fakarava",
-      "category" : "Game",
-      "score" : 11,
+      "category": "Game",
+      "score": 11,
       "languages": [
         "Blueprint"
       ],
@@ -621,8 +609,8 @@
     },
     {
       "title": "Le postier de Fakarava - 'Democraty edition'",
-      "category" : "Game",
-      "score" : 10,
+      "category": "Game",
+      "score": 10,
       "languages": [
         "Blueprint"
       ],
@@ -680,8 +668,8 @@
     },
     {
       "title": "Qanga",
-      "category" : "Game",
-      "score" : 20,
+      "category": "Game",
+      "score": 20,
       "languages": [
         "Blueprint",
         "Cpp"
@@ -768,8 +756,8 @@
     },
     {
       "title": "Prefab tool",
-      "category" : "Tools",
-      "score" : 3,
+      "category": "Tools",
+      "score": 3,
       "languages": [
         "Cpp"
       ],
@@ -814,8 +802,8 @@
     },
     {
       "title": "Super packer",
-      "category" : "Tools",
-      "score" : 5,
+      "category": "Tools",
+      "score": 5,
       "languages": [
         "Cpp",
         "glsl"
@@ -854,8 +842,8 @@
     },
     {
       "title": "ILSD",
-      "category" : "Misc",
-      "score" : 6,
+      "category": "Misc",
+      "score": 6,
       "languages": [
         "Cpp",
         "glsl"
@@ -879,8 +867,8 @@
     },
     {
       "title": "Taranis",
-      "category" : "GameEngine",
-      "score" : 21,
+      "category": "GameEngine",
+      "score": 21,
       "languages": [
         "Cpp",
         "slang"
@@ -909,8 +897,8 @@
     },
     {
       "title": "Led controler",
-      "category" : "Irl",
-      "score" : 5,
+      "category": "Irl",
+      "score": 5,
       "languages": [
         "Cpp"
       ],
@@ -926,8 +914,8 @@
     },
     {
       "title": "Rust3D",
-      "category" : "GameEngine",
-      "score" : 3,
+      "category": "GameEngine",
+      "score": 3,
       "languages": [
         "Rust",
         "Hlsl"
@@ -944,8 +932,8 @@
     },
     {
       "title": "Fileshare",
-      "score" : 17,
-      "category" : "Misc",
+      "score": 17,
+      "category": "Misc",
       "languages": [
         "Rust",
         "Javascript"
@@ -968,8 +956,8 @@
     },
     {
       "title": "Classe de nei/g/e",
-      "score" : 2,
-      "category" : "Game",
+      "score": 2,
+      "category": "Game",
       "languages": [
         "Blueprint"
       ],
@@ -988,8 +976,8 @@
     },
     {
       "title": "Blender & other creations",
-      "score" : 8,
-      "category" : "Game",
+      "score": 8,
+      "category": "Game",
       "graphics": "Blender",
       "languages": [],
       "description": "",
@@ -1039,8 +1027,8 @@
     },
     {
       "title": "Pedalboard-Project",
-      "category" : "Irl",
-      "score" : 3,
+      "category": "Irl",
+      "score": 3,
       "languages": [],
       "graphics": "Irl",
       "description": "",
@@ -1054,8 +1042,8 @@
     },
     {
       "title": "Planet Engine",
-      "category" : "GameEngine",
-      "score" : 22,
+      "category": "GameEngine",
+      "score": 22,
       "languages": [
         "Cpp",
         "Glsl"
@@ -1066,7 +1054,12 @@
       "link": "https://github.com/PierreEVEN/PlanetEngine",
       "start": "Sep 26, 2022",
       "end": "Jan 22, 2023",
-      "libs": ["assimp", "glfw3", "imgui", "eigen"],
+      "libs": [
+        "assimp",
+        "glfw3",
+        "imgui",
+        "eigen"
+      ],
       "gallery": [
         {
           "image": "/public/images/portfolio/planet_engine/1.webp"
@@ -1108,8 +1101,8 @@
     },
     {
       "title": "RC F16",
-      "category" : "Irl",
-      "score" : 9,
+      "category": "Irl",
+      "score": 9,
       "languages": [],
       "graphics": "Irl",
       "description": "",
@@ -1122,7 +1115,6 @@
         {
           "image": "/public/images/portfolio/f16/IMG_20230612_140634.jpg"
         },
-        
         {
           "image": "/public/images/portfolio/f16/IMG_20230627_185026.jpg"
         },
@@ -1147,7 +1139,6 @@
         {
           "image": "/public/images/portfolio/f16/IMG-20230611-WA0018.jpg"
         },
-
         {
           "image": "/public/images/portfolio/f16/IMG-20230612-WA0006.jpg"
         },
@@ -1179,19 +1170,29 @@
     },
     {
       "title": "Urban Tree",
-      "category" : ["Misc", "School"],
-      "score" : 8,
+      "category": [
+        "Misc",
+        "School"
+      ],
+      "score": 8,
       "languages": [
         "Cpp",
         "Glsl"
       ],
       "graphics": "Opengl",
       "description": "Tree segmentation in a 3D point cloud. Extraction of trees from point clouds generated from video data to estimate foliage volumes.",
-      "image":  "/public/images/portfolio/urbantree/software.png",
+      "image": "/public/images/portfolio/urbantree/software.png",
       "link": "https://github.com/PierreEVEN/UrbanTree",
       "start": "Jan 31, 2023",
       "end": "May 30, 2023",
-      "libs": ["eigen", "imgui", "opencv", "gl3w", "happly", "glfw3"],
+      "libs": [
+        "eigen",
+        "imgui",
+        "opencv",
+        "gl3w",
+        "happly",
+        "glfw3"
+      ],
       "gallery": [
         {
           "image": "/public/images/portfolio/urbantree/2-base.png"
@@ -1215,8 +1216,11 @@
     },
     {
       "title": "MonteCarlo path-tracer",
-      "category" : ["GameEngine", "School"],
-      "score" : 15,
+      "category": [
+        "GameEngine",
+        "School"
+      ],
+      "score": 15,
       "languages": [
         "Cpp",
         "glsl"
@@ -1249,8 +1253,11 @@
     },
     {
       "title": "Pucman",
-      "category" : ["Game", "School"],
-      "score" : 2,
+      "category": [
+        "Game",
+        "School"
+      ],
+      "score": 2,
       "languages": [
         "Cpp"
       ],
@@ -1260,7 +1267,9 @@
       "link": "https://github.com/PierreEVEN/puckman",
       "start": "Jan 30, 2023",
       "end": "May 10, 2023",
-      "libs": ["sdl2"],
+      "libs": [
+        "sdl2"
+      ],
       "gallery": [
         {
           "image": "/public/images/portfolio/pucman/b.png"
@@ -1272,8 +1281,11 @@
     },
     {
       "title": "Waterpixels",
-      "category" : ["Misc", "School"],
-      "score" : 6,
+      "category": [
+        "Misc",
+        "School"
+      ],
+      "score": 6,
       "languages": [
         "Cpp"
       ],
@@ -1282,7 +1294,11 @@
       "link": "https://github.com/PierreEVEN/waterpixels",
       "start": "Dec 21, 2023",
       "end": "Jan 19, 2024",
-      "libs": ["libtim", "glm", "openmp"],
+      "libs": [
+        "libtim",
+        "glm",
+        "openmp"
+      ],
       "gallery": [
         {
           "image": "/public/images/portfolio/waterpixels/combined_spacing_0.6.png"
@@ -1300,8 +1316,10 @@
     },
     {
       "title": "ProjectT",
-      "category" : ["Game"],
-      "score" : 5,
+      "category": [
+        "Game"
+      ],
+      "score": 5,
       "languages": [
         "Cpp",
         "Blueprint"
@@ -1342,8 +1360,10 @@
     },
     {
       "title": "Procedural landscape",
-      "category" : ["Game"],
-      "score" : 10,
+      "category": [
+        "Game"
+      ],
+      "score": 10,
       "languages": [
         "Cpp",
         "Blueprint"

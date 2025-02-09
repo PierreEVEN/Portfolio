@@ -174,10 +174,6 @@ class Projects extends PageBase {
                 dur = getDateTimeSince(new Date(end - date))
                 project.duration = dur;
             }
-            if (date)
-                date = new Date(date).toDateString();
-            if (end)
-                end = new Date(end).toDateString();
             new Project(this.container, project);
         }
     }

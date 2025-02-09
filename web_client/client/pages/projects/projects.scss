@@ -36,18 +36,27 @@
       padding: 16px;
       margin: 0 10px;
       font-size: 16px;
+      @media (orientation: portrait) {
+        width: 100%;
+        padding: 16px 0;
+        margin: 0 0 10px 0;
+      }
     }
 
     .filter-dropdown {
       position: relative;
       display: inline-block;
+      @media (orientation: portrait) {
+        width: 100%;
+      }
 
-      .main_btn {
-        background-color: #c6af1e;
+      button {
+        background-color: #c68b1e;
         color: white;
         padding: 16px;
         font-size: 16px;
         border: none;
+        width: 200px;
       }
 
       .main-filters {
@@ -58,6 +67,17 @@
         min-width: 160px;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         z-index: 1;
+
+        button {
+          padding: 12px;
+          background-color: #857c6a;
+          border: solid 1px #615341;
+
+          &:hover {
+            background-color: #a19377;
+
+          }
+        }
       }
 
       button:hover {
@@ -69,7 +89,7 @@
       }
 
       &:hover .main_btn {
-        background-color: #dd702d;
+        background-color: #c38028;
       }
     }
   }

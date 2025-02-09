@@ -40,101 +40,113 @@
     margin: 20px;
   }
 
-  .section {
-    margin: 20px;
-    flex-direction: column;
-    align-items: center;
-    background-color: #202020;
-    padding: 20px ;
+  .sections {
 
-    .section-panel {
-      position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    @media (orientation: portrait) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .section {
+      margin: 20px;
+      flex-direction: column;
       align-items: center;
-      justify-content: center;
-      border-radius: 100px;
-      overflow: clip;
-      padding: 0;
-      cursor: pointer;
+      background-color: #202020;
+      padding: 20px;
 
-      img {
-        width: 100%;
-        padding: 0;
-        transition-duration: 0.5s;
-      }
-
-      .section-overlay {
-        position: absolute;
-        width: 90%;
-        height: 50%;
-        background-color: #13a3aac2;
+      .section-panel {
+        position: relative;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
-        box-shadow: 0 30px 40px rgb(0, 0, 0);
-        border-radius: 50px;
-        transition-duration: 0.5s;
+        border-radius: 100px;
+        overflow: clip;
+        padding: 0;
+        cursor: pointer;
 
-        transform: scale(0.75);
-        opacity: 0;
+        img {
+          width: 100%;
+          padding: 0;
+          transition-duration: 0.5s;
+        }
 
-        h1 {
-          color: white;
-          display: flex;
-          justify-content: center;
+        .section-overlay {
+          position: absolute;
+          width: 90%;
+          height: 50%;
+          background-color: #13a3aac2;
           align-items: center;
-          text-shadow: 2px 2px 4px pink;
+          justify-content: center;
+          flex-direction: column;
+          box-shadow: 0 30px 40px rgb(0, 0, 0);
+          border-radius: 50px;
+          transition-duration: 0.5s;
 
-          font-size: 2.5vw;
-          font-weight: 600;
+          transform: scale(0.75);
+          opacity: 0;
 
-          img {
-            width: 5vw;
+          h1 {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 4px pink;
+
+            font-size: 2.5vw;
+            font-weight: 600;
+
+            img {
+              width: 5vw;
+            }
+          }
+
+          p {
+            text-align: center;
+            margin: 0;
+            color: white;
+            font-size: 1.5vw;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 4px pink;
+          }
+
+          .small {
+            color: #ffffff;
+            font-size: 0.75vw;
           }
         }
 
-        p {
-          text-align: center;
-          margin: 0;
-          color: white;
-          font-size: 1.5vw;
-          justify-content: center;
-          align-items: center;
-          text-shadow: 2px 2px 4px pink;
-        }
-        .small {
-          color: #ffffff;
-          font-size: 0.75vw;
+        &:hover {
+          .section-overlay {
+            transform: scale(1);
+            opacity: 1;
+          }
+
+          img {
+            transform: scale(1.15);
+            filter: grayscale(90%);
+          }
         }
       }
 
-      &:hover {
-        .section-overlay {
-          transform: scale(1);
-          opacity: 1;
-        }
-        img {
-          transform: scale(1.15);
-          filter: grayscale(90%);
-        }
+      h1 {
+        font-weight: 200;
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
       }
-    }
 
-    h1 {
-      font-weight: 200;
-      font-size: 35px;
-      text-align: center;
-      width: 100%;
-    }
+      button {
+        padding: 16px;
+        width: 200px;
+        background-color: #aa8413;
+        border: solid 2px #b3b3b3;
+        border-radius: 20px;
+        color: white;
 
-    button {
-      padding: 16px;
-      width: 200px;
-      background-color: #aa8413;
-      border: solid 2px #b3b3b3;
-      border-radius: 20px;
-      color: white;
-
-      font-size: 25px;
+        font-size: 25px;
+      }
     }
   }
 }
