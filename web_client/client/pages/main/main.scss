@@ -31,13 +31,82 @@
     }
   }
 
-  * {
-    padding: 0 20px;
-  }
-
   p {
     text-align: justify;
     margin: 20px;
+  }
+
+  .first-section {
+    justify-content: center;
+    align-self: center;
+    width: 70%;
+    margin: 70px 0;
+    @media (orientation: portrait) {
+      width: 100%;
+    }
+  }
+
+  .section {
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    overflow: clip;
+    position: relative;
+    height: 35vh;
+    justify-content: center;
+    flex-grow: 1;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition-duration: 0.25s;
+    }
+
+    .section-content {
+      position: absolute;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      background-color: rgba(67, 37, 75, 0.83);
+      backdrop-filter: blur(2px);
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+        margin: 0 0 10px 0;
+      }
+
+      .section-description {
+        flex-direction: column;
+        p {
+
+          text-align: center;
+          margin: 10px 0;
+        }
+      }
+    }
+
+    .clicky {
+      position: absolute;
+      right: 0;
+      bottom: 20px;
+      width: 10vw;
+      height: auto;
+      object-fit: contain;
+
+    }
+
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
   }
 
   .sections {
@@ -49,104 +118,5 @@
       grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
-    .section {
-      margin: 20px;
-      flex-direction: column;
-      align-items: center;
-      background-color: #202020;
-      padding: 20px;
-
-      .section-panel {
-        position: relative;
-        align-items: center;
-        justify-content: center;
-        border-radius: 100px;
-        overflow: clip;
-        padding: 0;
-        cursor: pointer;
-
-        img {
-          width: 100%;
-          padding: 0;
-          transition-duration: 0.5s;
-        }
-
-        .section-overlay {
-          position: absolute;
-          width: 90%;
-          height: 50%;
-          background-color: #13a3aac2;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          box-shadow: 0 30px 40px rgb(0, 0, 0);
-          border-radius: 50px;
-          transition-duration: 0.5s;
-
-          transform: scale(0.75);
-          opacity: 0;
-
-          h1 {
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-shadow: 2px 2px 4px pink;
-
-            font-size: 2.5vw;
-            font-weight: 600;
-
-            img {
-              width: 5vw;
-            }
-          }
-
-          p {
-            text-align: center;
-            margin: 0;
-            color: white;
-            font-size: 1.5vw;
-            justify-content: center;
-            align-items: center;
-            text-shadow: 2px 2px 4px pink;
-          }
-
-          .small {
-            color: #ffffff;
-            font-size: 0.75vw;
-          }
-        }
-
-        &:hover {
-          .section-overlay {
-            transform: scale(1);
-            opacity: 1;
-          }
-
-          img {
-            transform: scale(1.15);
-            filter: grayscale(90%);
-          }
-        }
-      }
-
-      h1 {
-        font-weight: 200;
-        font-size: 35px;
-        text-align: center;
-        width: 100%;
-      }
-
-      button {
-        padding: 16px;
-        width: 200px;
-        background-color: #aa8413;
-        border: solid 2px #b3b3b3;
-        border-radius: 20px;
-        color: white;
-
-        font-size: 25px;
-      }
-    }
   }
 }
