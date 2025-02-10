@@ -654,8 +654,28 @@
       "duration": "Still in active development, I leaved the project in 2019",
       "features": [
         {
+          "name": "Swarms",
+          "description": "Large amount of replicated NPCs with net prediction",
+          "image": "/public/images/portfolio/qanga/Qanga(7).webp"
+        },
+        {
+          "name": "Large open world",
+          "description": "36 square kilometers of detailed, explorable environments",
+          "image": "/public/images/portfolio/qanga/Qanga(48).webp"
+        },
+        {
+          "name": "Vehicles",
+          "description": "Hovering vehicles using a custom physics model",
+          "image": "/public/images/portfolio/qanga/Qanga(46).webp"
+        },
+        {
+          "name": "Realist ballistic",
+          "description": "Advanced ballistic simulation with surface penetration",
+          "image": "/public/images/portfolio/qanga/Qanga(41).webp"
+        },
+        {
           "name": "Massively multiplayer",
-          "description": "Up to 50 simultaneous players in a large open world"
+          "description": "Up to 50 simultaneous players"
         },
         {
           "name": "Multiple gamemodes",
@@ -666,10 +686,6 @@
           "description": "Dynamic, challenging, and competitive gameplay. Advanced lag compensation, high performance network and much more."
         },
         {
-          "name": "Vehicles",
-          "description": "Hovering vehicles using a custom physics model"
-        },
-        {
           "name": "Sandbox",
           "description": "Build your home, fight AI, waves, boss, defend your base"
         }
@@ -677,12 +693,6 @@
       "gallery": [
         {
           "image": "/public/images/portfolio/qanga/Qanga(61).webp"
-        },
-        {
-          "image": "/public/images/portfolio/qanga/Qanga(48).webp"
-        },
-        {
-          "image": "/public/images/portfolio/qanga/Qanga(7).webp"
         },
         {
           "image": "/public/images/portfolio/qanga/Qanga(4).webp"
@@ -709,16 +719,10 @@
           "image": "/public/images/portfolio/qanga/Qanga(31).webp"
         },
         {
-          "image": "/public/images/portfolio/qanga/Qanga(46).webp"
-        },
-        {
           "image": "/public/images/portfolio/qanga/Qanga(40).webp"
         },
         {
           "image": "/public/images/portfolio/qanga/Qanga(34).webp"
-        },
-        {
-          "image": "/public/images/portfolio/qanga/Qanga(41).webp"
         }
       ]
     },
@@ -1060,27 +1064,44 @@
         "imgui",
         "eigen"
       ],
+      "features": [
+        {
+          "name": "SSR",
+          "description": "Screen space reflections",
+          "image": "/public/images/portfolio/planet_engine/2.webp"
+        },
+        {
+          "name": "Ocean with FFT",
+          "description": "Waves simulation using Fast Fourier Transform on the GPU",
+          "image": "/public/images/portfolio/planet_engine/a.webp"
+        },
+        {
+          "name": "Clip map",
+          "description": "Spherical terrain with Clip map LODs",
+          "image": "/public/images/portfolio/planet_engine/e.webp"
+        },
+        {
+          "name": "Solar system",
+          "description": "Simulate complete solar systems, with multiple planets and their moons",
+          "image": "/public/images/portfolio/planet_engine/d.webp"
+        },
+        {
+          "name": "Atmospheric Scattering",
+          "description": "Atmospheric scattering effects in post processing",
+          "image": "/public/images/portfolio/planet_engine/c.webp"
+        },
+        {
+          "name": "Bloom",
+          "description": "Unreal Engine like bloom post processing",
+          "image": "/public/images/portfolio/planet_engine/bloom.webp"
+        }
+      ],
       "gallery": [
         {
           "image": "/public/images/portfolio/planet_engine/1.webp"
         },
         {
-          "image": "/public/images/portfolio/planet_engine/2.webp"
-        },
-        {
           "image": "/public/images/portfolio/planet_engine/3.webp"
-        },
-        {
-          "image": "/public/images/portfolio/planet_engine/a.webp"
-        },
-        {
-          "image": "/public/images/portfolio/planet_engine/c.webp"
-        },
-        {
-          "image": "/public/images/portfolio/planet_engine/d.webp"
-        },
-        {
-          "image": "/public/images/portfolio/planet_engine/e.webp"
         },
         {
           "image": "/public/images/portfolio/planet_engine/f.webp"
@@ -1093,9 +1114,6 @@
         },
         {
           "image": "/public/images/portfolio/planet_engine/i.webp"
-        },
-        {
-          "image": "/public/images/portfolio/planet_engine/bloom.webp"
         }
       ]
     },
