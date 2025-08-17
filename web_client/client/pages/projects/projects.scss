@@ -4,6 +4,8 @@
   width: 90%;
   overflow: scroll;
   padding-bottom: 100px;
+  flex-direction: column;
+
 
   .summary {
     width: 90%;
@@ -94,9 +96,6 @@
       }
     }
   }
-
-  flex-direction: column;
-
   .project-list {
     display: flex;
     flex-direction: column;

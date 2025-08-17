@@ -6,7 +6,7 @@ use std::process::{Stdio};
 use std::sync::Arc;
 use anyhow::Error;
 use axum::extract::{Path, State};
-use axum::response::{Html, IntoResponse};
+use axum::response::{Html, IntoResponse, Redirect};
 use axum::{Router};
 use axum::routing::{get};
 use tokio::process::{Child, Command};
@@ -79,6 +79,8 @@ impl WebClient {
             .route("/{*path}", get(get_index_path).with_state(ctx.clone()))
             .route("/favicon.ico", get(Self::get_favicon).with_state(ctx.clone()))
             .route("/robots.txt", get(Self::get_robots).with_state(ctx.clone()))
+            .route("/amn", get(amn))
+            .route("/amn/", get(amn))
             .nest("/public/", StaticFileServer::router(ctx.config.web_client_config.client_path.join("public")))
         )
     }
@@ -90,6 +92,10 @@ impl WebClient {
     async fn get_favicon(State(ctx): State<Arc<AppCtx>>) -> Result<impl IntoResponse, ServerError> {
         StaticFileServer::serve_file_from_path(ctx.config.web_client_config.client_path.join("public").join("images").join("icons").join("favicon.ico")).await
     }
+}
+
+async fn amn() -> Result<impl IntoResponse, ServerError> {
+    Ok(Redirect::permanent("https://fileshare.evenpierre.fr/Pierre/amn"))
 }
 
 async fn get_index(State(ctx): State<Arc<AppCtx>>) -> Result<impl IntoResponse, ServerError> {
