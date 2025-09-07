@@ -2,7 +2,9 @@ mod static_file_server;
 pub mod app_ctx;
 
 use std::{env, fs};
+use std::net::{IpAddr, Ipv4Addr, Ipv6Addr, SocketAddr, UdpSocket};
 use std::process::{Stdio};
+use std::str::FromStr;
 use std::sync::Arc;
 use anyhow::Error;
 use axum::extract::{Path, State};
@@ -12,6 +14,7 @@ use axum::routing::{get};
 use tokio::process::{Child, Command};
 use tracing::{info};
 use which::which;
+use wol::MacAddr6;
 use utils::config::WebClientConfig;
 use crate::app_ctx::AppCtx;
 use utils::server_error::ServerError;
@@ -81,6 +84,9 @@ impl WebClient {
             .route("/robots.txt", get(Self::get_robots).with_state(ctx.clone()))
             .route("/amn", get(amn))
             .route("/amn/", get(amn))
+            .route("/minecraft", get(get_mc_index).with_state(ctx.clone()))
+            .route("/minecraft/", get(get_mc_index).with_state(ctx.clone()))
+            .route("/minecraft/start", get(start_mc).with_state(ctx.clone()))
             .nest("/public/", StaticFileServer::router(ctx.config.web_client_config.client_path.join("public")))
         )
     }
@@ -96,6 +102,46 @@ impl WebClient {
 
 async fn amn() -> Result<impl IntoResponse, ServerError> {
     Ok(Redirect::permanent("https://fileshare.evenpierre.fr/Pierre/amn"))
+}
+
+async fn get_mc_index(State(ctx): State<Arc<AppCtx>>) -> Result<impl IntoResponse, ServerError> {
+    let index_path_buf = ctx.config.web_client_config.client_path.join("public").join("minecraft").join("index.html");
+    let index_path = index_path_buf.to_str().unwrap();
+    let index_data = match fs::read_to_string(index_path) {
+        Ok(file) => { file }
+        Err(err) => { Err(Error::msg(format!("Cannot find index file : {err} (searching in {index_path})")))? }
+    };
+    Ok(Html(index_data))
+}
+
+async fn start_mc(State(ctx): State<Arc<AppCtx>>) -> Result<impl IntoResponse, ServerError> {
+    let addr = ctx.config.minecraft.wake_on_lan_address.as_str();
+    let mac = ctx.config.minecraft.wake_on_lan_mac.as_str();
+
+    // Parse MAC address
+    let mac_bytes: Vec<u8> = mac
+        .split(':')
+        .map(|x| u8::from_str_radix(x, 16).unwrap())
+        .collect();
+
+    if mac_bytes.len() != 6 {
+        panic!("Invalid MAC address format");
+    }
+
+    // Build magic packet: 6 x 0xFF + 16 x MAC
+    let mut packet = Vec::with_capacity(6 + 16 * 6);
+    packet.extend([0xFF; 6].iter());
+    for _ in 0..16 {
+        packet.extend(mac_bytes.iter());
+    }
+
+    // Send via UDP broadcast on port 9
+    let socket = UdpSocket::bind("0.0.0.0:0")?;
+    socket.set_broadcast(true)?;
+    socket.send_to(&packet, addr)?;
+
+    println!("Magic packet sent to {} | {}", addr, mac);
+    Ok(())
 }
 
 async fn get_index(State(ctx): State<Arc<AppCtx>>) -> Result<impl IntoResponse, ServerError> {

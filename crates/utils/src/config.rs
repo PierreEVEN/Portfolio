@@ -19,11 +19,18 @@ pub struct TlsConfig {
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
+pub struct Minecraft {
+    pub wake_on_lan_address: String,
+    pub wake_on_lan_mac: String,
+}
+
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Config {
     pub addresses: Vec<String>,
     pub web_client_config: WebClientConfig,
     pub tls_config: TlsConfig,
     pub use_tls: bool,
+    pub minecraft: Minecraft
 }
 
 impl Default for Config {
@@ -41,7 +48,8 @@ impl Default for Config {
                 certificate: PathBuf::from("/Path/To/certificate.pem"),
                 private_key: PathBuf::from("/Path/To/private_key.pem"),
             },
-            use_tls: true
+            use_tls: true,
+            minecraft: Minecraft { wake_on_lan_address: "NONE".to_string(), wake_on_lan_mac: "NONE".to_string() },
         }
     }
 }
