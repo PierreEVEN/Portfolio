@@ -2,9 +2,8 @@ mod static_file_server;
 pub mod app_ctx;
 
 use std::{env, fs};
-use std::net::{IpAddr, Ipv4Addr, Ipv6Addr, SocketAddr, UdpSocket};
+use std::net::{UdpSocket};
 use std::process::{Stdio};
-use std::str::FromStr;
 use std::sync::Arc;
 use anyhow::Error;
 use axum::extract::{Path, State};
@@ -14,7 +13,6 @@ use axum::routing::{get};
 use tokio::process::{Child, Command};
 use tracing::{info};
 use which::which;
-use wol::MacAddr6;
 use utils::config::WebClientConfig;
 use crate::app_ctx::AppCtx;
 use utils::server_error::ServerError;
